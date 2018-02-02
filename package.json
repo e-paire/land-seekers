@@ -1,0 +1,37 @@
+{
+  "repository": "git@github.com:e-paire/land-seekers.git",
+  "author": "Cédric Delpoux <xuopled@gmail.com>",
+  "private": true,
+  "devDependencies": {
+    "@phenomic/cli": "^1.0.0-alpha.18",
+    "@phenomic/core": "^1.0.0-alpha.18",
+    "@phenomic/preset-react-app": "^1.0.0-alpha.18",
+    "copy-webpack-plugin": "^4.3.1",
+    "filemanager-webpack-plugin": "^1.0.22",
+    "grid-styled": "^2.0.0-11",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.10.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-ga": "^2.4.1",
+    "react-helmet": "^5.2.0",
+    "react-images": "^0.5.15",
+    "react-intl": "^2.4.0",
+    "react-responsive-masonry": "^2.0.0",
+    "react-router": "^3.2.0",
+    "styled-components": "^3.0.0",
+    "styled-media-query": "^2.0.1",
+    "styled-system": "^1.1.1"
+  },
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "phenomic start",
+    "build": "phenomic build"
+  }
+}
