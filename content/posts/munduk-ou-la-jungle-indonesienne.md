@@ -1,7 +1,8 @@
 ---
 title: 'Munduk, ou la jungle Indonesienne'
 date: '2018-07-11'
-tags: []
+tags:
+  - Indonesie
 ---
 Munduk est une petite ville au nord de Bali, proche des twin lakes et du très fameux Temple Ulun Danu Beratan.
 
