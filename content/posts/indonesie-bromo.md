@@ -19,24 +19,26 @@ trame :
 introduction / quoi faire (chemin d'accès) / comment s'y rendre / où dormir / où manger
 
 Notre aventure bromonienne se résume ainsi :
-- Train de Yogyakarta jusqu'à Probollingo (9h de trajet)
-- Mini-bus de Probollingo à Ceromo Lawang (1h30 de trajet)
-- randonnée nocture jusqu'au point d'observation pour voir le soleil se lever sur la Caldeira
-- descente en scooter jusqu'à Bromo
-- ascension du mont Bromo
-- retour à l'hôtel pour une très très long sieste
+
+* Train de Yogyakarta jusqu'à Probollingo (9h de trajet)
+* Mini-bus de Probollingo à Ceromo Lawang (1h30 de trajet)
+* randonnée nocture jusqu'au point d'observation pour voir le soleil se lever sur la Caldeira
+* descente en scooter jusqu'à Bromo
+* ascension du mont Bromo
+* retour à l'hôtel pour une très très long sieste
 
 # Aller à Ceromo Lawang
+
 Ceromo Lawang est le village situé à côté du mont Bromo. La plus part des personnes loge ici car il est possible, de là, d'aller au point d'observation pour voir le lever du soleil.
 
-Ceromo Lawang est à 1h30 de route depuis Probollingo, ville la plus proche disposant d'une gare ferroviaire. 
+Ceromo Lawang est à 1h30 de route depuis Probollingo, ville la plus proche disposant d'une gare ferroviaire.
 Que vous arriviez de Yogya ou Bali, prennez le train jusqu'à cette destination-là. Vous pouvez réserver très facilement sur internet depuis le site [tiket.com](tiket.com).
 
 Faites votre possible pour arriver le plus tôt possible à Probollingo. En effet, ce n'est pas si facile pour rejoindre Ceromo Lawang. Vous pourrez seulement y aller en minibus pour un trajet qui dure environ 1h30 (en fonction de la folie de conduite de votre chauffeur).
 En arrivant à la gare ferrorivière de Probollingo, comme un peu partout en Indonésie, on va vous aborder pour vous proposer des taxis. On vous proposera toute sorte de prix pour aller jusqu'à Ceromo Lawang. Voilà comment ça se passe en général :
 On va proposer un prix pour aller à Ceromo Lawang, vous pouvez négocier pour 60000 rouphies par personnes (soit 4€). On va vous garantir que vous partez dessuite jusqu'au village. Seulement voilà, uniquement la moitié de ce qu'ils disent est vrai : vous partez direct... jusqu'à l'agence pour laquelle travaille le chauffeur de taxi.
 
-Une fois à l'agence, vous n'avez plus d'autre choix que d'attendre que d'autres touristes arrivent et que leur minibus soit plein pour partir. En effet, les minibus ne partent pas pour seulement 2 personnes. 
+Une fois à l'agence, vous n'avez plus d'autre choix que d'attendre que d'autres touristes arrivent et que leur minibus soit plein pour partir. En effet, les minibus ne partent pas pour seulement 2 personnes.
 
 Notre conseil : négociez bien le prix, mais surtout, faites vous bien valider le temps que vous devrez attendre avant de partir. Par chance nous avons attendu seulement 1 heure, en compagnie du responsable de l'agence.
 

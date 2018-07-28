@@ -8,10 +8,7 @@ tags:
   - Europe
 ---
 
-
 La belle île de Ténérife ! Souvent considéré comme une destination balnéaire, l'île regorge de beautés naturelles. Un vrai paradis pour les amoureux de la nature. On vous laisse le découvrir par vous-même grâce au photos.
-
-
 
 S'y rendre
 
@@ -23,11 +20,7 @@ a compagnie low-cost Ryanair propose des tarifs trèeees intéressant au départ
 
 Le mieux est de regarder ces différentes possibilités lors de votre réservation et de choisir la compagnie qui vous convient le plus.
 
-
-
 Personnellement je recommande Volotéa plus que Ryanair, il y a quand même 4h de vol, donc on peux priviligier le confort (même si la différence n'est pas énorme)
-
-
 
 Où aller
 
@@ -39,8 +32,6 @@ Si vous avez l'intention de visiter toute l'île, l'idéal est de vous déplacer
 
 Nous avons fait le choix de rester toute la semaine au même endroit. Avec du recul, nous nous sommes dit que bouger aurait été mieux pour éviter de perdre trop de temps dans la voiture. 40km en voiture ne paraît rien mais avec les virages de montages ça peux rapidement devenir un long trajet.
 
-
-
 Pour cela, voici ce que nous pouvons vous conseiller :
 
 \- Parc rural d'Anaga : 3/4 jours
@@ -49,13 +40,9 @@ Pour cela, voici ce que nous pouvons vous conseiller :
 
 \- Parc rural Teno : 2/3 jours
 
-
-
 Où dormir
 
-\-  QUOI DIRE ?
-
-
+\- QUOI DIRE ?
 
 Que faire
 
@@ -63,27 +50,17 @@ Nous avons tellement de choses à vous dire sur les choses à faire qu'on a réd
 
 \- Parc rural d'Anaga
 
-
-
 \- Par national du Teide
 
-
-
 \- Parc rural Teno
-
-
 
 Ce que j'ai aimé
 
 \- la variété de la nature, dans chaque parc national on a l'impression d'être sur un autre continent.
 
-
-
 Ce que je n'ai pas aimé
 
 \- les village
-
-
 
 Conseil avant le départ
 
