@@ -6,9 +6,8 @@ tags:
   - Autriche
   - Europe
 ---
+
 En été 2017 nous voulions des vacances nature, se détendre et aller à la recherche des plus jolies paysages. C'est donc tout naturellement que notre choix c'est porté sur l'Autriche. En effet, s'il fallait définir ce pays, on pourrait dire : Alpes, routes alpine, lacs ... Tout ce qu'on aime. Pendant 15 jours nous avons silloné l'Autriche de long en large. Voici un résumé du trajet avec nos conseils et bon plans
-
-
 
 S'y rendre :
 
@@ -18,21 +17,15 @@ Venir en avion est également une possibilité, nous avons choisi la compagnie B
 
 Sinon, en train vous pouvez utiliser un pass interrail. Tous les horaires de train sont disponible sur le site : http://www.oebb.at/en/. Si vous vous y prenez à l'avance, les prix des billets sont à prix très attractif.
 
-
-
 Où aller :
 
 Possible d'intégrer une Google Maps avec les différents lieux intéressant ?
-
-
 
 Où dormir :
 
 Vous trouvez principalement en Autriche des zimmers (des chambres) et des campings
 
 \--> se renseigner davantage sur les différentes sortes de chambres en Autriche
-
-
 
 Que faire
 

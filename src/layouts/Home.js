@@ -41,5 +41,10 @@ const Home = ({isLoading, posts}) => (
 )
 
 export default createContainer(Home, ({params: {after}}) => ({
-  posts: query({path: "posts", after: after, limit: 20}),
+  posts: query({
+    path: "posts",
+    after: after,
+    limit: 20,
+    sort: "date",
+  }),
 }))
