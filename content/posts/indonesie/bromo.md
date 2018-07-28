@@ -6,19 +6,41 @@ tags:
   - Indonesie
 ---
 
-Intro
+Java, l'île principale d'Indonésie est riche en volcans. Le volcan du Bromo est parmi les plus connus. TROUVER POURQUOI.
+Le volcan se trouve dans une vallée de sable au milieu de X autres volcans (TROUVER NOMBRE DE VOLCANS). En réalité, quand l'on parle de Bromo, on englobe également ses volcans voisons. La vallée est très belle à observer lors du lever du soleil. On s'aventure au petit matin pour une randonnée jusqu'à un point d'observation, et petit à petit et au fur et à mesure que les rayons de soleil s'illuminent, on découvre sous nos yeux les magnifiques volcans. Un vraie carte postale. On vous raconte notre expérience dans l'article consacré aux paysages du mont Bromo. POUR UNE AUTRE ARTICLE : NOTRE RESSENTI SUR BROMO ET LA ROUTE JUSQU'A LA CALDEIRA + CEREMONIE
 
-# Se rendre à Bromo
+PHOTO DE LA VALLEE
 
-Le village le plus proche du volcan Bromo s'appelle Ceromo Lawang.
+Une fois le soleil à son appogée, on peut descendre dans la vallée pour faire l'ascension du volcan Bromo pour observer le cratère (en activité).
 
-Que vous arriviez de Yogya ou Bali, prennez le train jusqu'à Probollingo. Vous pouvez réserver très facilement sur internet depuis le site [tiket.com](tiket.com).
+Admirer le lever du soleil sur le volcan du Bromo se mérite. L'accès nécessite une petite organisation pour rendre l'éxpérience plus appréciable. Dans cet article, on vous dit tout sur la meilleure manière d'aller voir le lever du soleil sur Bromo en toute autonomie.
 
-Faites votre possible pour arriver le plus tôt possible à Probollingo. En effet, ce n'est pas si facile pour rejoindre Ceromo Lawang.
-À la gare, comme un peu partout en Indonésie, on va vous aborder pour vous proposer des taxis.
-Faites attention, la plupart du temps ces taxis vont vous amener dans les locaux des agences. Une fois sur place vous n'avez plus d'autre choix que d'attendre que leur minibus soit plein pour partir. Négociez bien le prix, mais surtout, faites vous bien valider le temps que vous devrez attendre avant de partir. Par chance nous avons attendu seulement 1 heure, en compagnie du responsable de l'agence.
+trame :
+introduction / quoi faire (chemin d'accès) / comment s'y rendre / où dormir / où manger
 
-Toutfois, ce dernier a essayé de nous vendre tous les packages possibles et inimaginables.
+Notre aventure bromonienne se résume ainsi :
+- Train de Yogyakarta jusqu'à Probollingo (9h de trajet)
+- Mini-bus de Probollingo à Ceromo Lawang (1h30 de trajet)
+- randonnée nocture jusqu'au point d'observation pour voir le soleil se lever sur la Caldeira
+- descente en scooter jusqu'à Bromo
+- ascension du mont Bromo
+- retour à l'hôtel pour une très très long sieste
+
+# Aller à Ceromo Lawang
+Ceromo Lawang est le village situé à côté du mont Bromo. La plus part des personnes loge ici car il est possible, de là, d'aller au point d'observation pour voir le lever du soleil.
+
+Ceromo Lawang est à 1h30 de route depuis Probollingo, ville la plus proche disposant d'une gare ferroviaire. 
+Que vous arriviez de Yogya ou Bali, prennez le train jusqu'à cette destination-là. Vous pouvez réserver très facilement sur internet depuis le site [tiket.com](tiket.com).
+
+Faites votre possible pour arriver le plus tôt possible à Probollingo. En effet, ce n'est pas si facile pour rejoindre Ceromo Lawang. Vous pourrez seulement y aller en minibus pour un trajet qui dure environ 1h30 (en fonction de la folie de conduite de votre chauffeur).
+En arrivant à la gare ferrorivière de Probollingo, comme un peu partout en Indonésie, on va vous aborder pour vous proposer des taxis. On vous proposera toute sorte de prix pour aller jusqu'à Ceromo Lawang. Voilà comment ça se passe en général :
+On va proposer un prix pour aller à Ceromo Lawang, vous pouvez négocier pour 60000 rouphies par personnes (soit 4€). On va vous garantir que vous partez dessuite jusqu'au village. Seulement voilà, uniquement la moitié de ce qu'ils disent est vrai : vous partez direct... jusqu'à l'agence pour laquelle travaille le chauffeur de taxi.
+
+Une fois à l'agence, vous n'avez plus d'autre choix que d'attendre que d'autres touristes arrivent et que leur minibus soit plein pour partir. En effet, les minibus ne partent pas pour seulement 2 personnes. 
+
+Notre conseil : négociez bien le prix, mais surtout, faites vous bien valider le temps que vous devrez attendre avant de partir. Par chance nous avons attendu seulement 1 heure, en compagnie du responsable de l'agence.
+
+Ce dernier a essayé de nous vendre tous les packages possibles et inimaginables.
 Gare à l'arnaque, nous avons négocié de ne payer que l'aller - retour Probolingo - Ceromo Lawang (60000 rouphie par personne) et retour (125000 rp par personne)
 
 L'entrée au village coûte 10000 rouphies par personne.
