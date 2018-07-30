@@ -3,11 +3,11 @@ import styled from "styled-components"
 import {Flex, Box} from "grid-styled"
 import media from "styled-media-query"
 
-import theme from "~/utils/theme"
-import Link from "~/components/Link"
-import {ButtonPrimaryOutline} from "~/components/Button"
-import IconBars from "~/icons/Bars"
-import IconTimes from "~/icons/Times"
+import theme from "utils/theme"
+import Link from "components/Link"
+import {ButtonPrimaryOutline} from "components/Button"
+import {ReactComponent as IconBars} from "icons/calendar.svg"
+import {ReactComponent as IconTimes} from "icons/calendar.svg"
 
 const Wrapper = styled("nav")`
   position: relative;
@@ -84,8 +84,8 @@ class Nav extends React.Component {
       <Wrapper>
         <List
           open={open}
-          align="center"
-          justify="space-between"
+          alignItems="center"
+          justifyContent="space-between"
           flexDirection={["column", "row"]}
         >
           <ListItem url="/" onClick={this.handleClose}>
@@ -100,7 +100,7 @@ class Nav extends React.Component {
         </List>
         <ToggleWrapper>
           <Button onClick={this.handleToggle}>
-            {open ? <IconTimes /> : <IconBars />}
+            {open ? <IconTimes width="1em" /> : <IconBars width="1em" />}
           </Button>
         </ToggleWrapper>
       </Wrapper>

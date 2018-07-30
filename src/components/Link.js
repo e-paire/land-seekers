@@ -1,12 +1,13 @@
-import {Link} from "react-router"
+import Link from "gatsby-link"
 import styled from "styled-components"
 
-import Text from "~/components/Text"
-import theme from "~/utils/theme"
+import Text from "components/Text"
+import theme from "utils/theme"
 
 const CustomLink = styled(Text.withComponent(Link))`
   color: ${theme.colors.blue};
   text-decoration: none;
+  box-shadow: none;
 
   &[disabled] {
     pointer-events: none;

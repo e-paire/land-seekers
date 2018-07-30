@@ -8,9 +8,10 @@ const light = props => (props.light ? {fontWeight: 200} : null)
 const align = props => (props.align ? {textAlign: props.align} : null)
 
 const Text = styled(Box)`
-  display: inline;
+  display: inline-flex;
   margin: 0;
   padding: 0;
+  fill: currentColor;
   ${align};
   ${fontSize};
   ${color};

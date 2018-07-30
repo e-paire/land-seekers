@@ -3,15 +3,17 @@ import styled from "styled-components"
 import {Flex, Box} from "grid-styled"
 import media from "styled-media-query"
 
-import IconCalendar from "~/icons/Calendar"
-import IconUser from "~/icons/User"
-import IconTags from "~/icons/Tags"
-import Link from "~/components/Link"
-import Tag from "~/components/Tag"
-import Text from "~/components/Text"
-import theme from "~/utils/theme"
+import Tag from "components/Tag"
+import Text from "components/Text"
+import Link from "components/Link"
+import Overlay from "./Overlay"
+import theme from "utils/theme"
 
-import Overlay from "~/components/Post/Overlay"
+import {ReactComponent as IconCalendar} from "icons/calendar.svg"
+import {ReactComponent as IconUser} from "icons/user.svg"
+import {ReactComponent as IconTags} from "icons/tags.svg"
+
+// import Overlay from "./Overlay"
 
 const Container = styled(Box).attrs({m: [0, 2]})`
   ${media.greaterThan("medium")`
@@ -59,55 +61,58 @@ const Cover = styled(Box)`
   }
 `
 
-const Title = styled(Text.withComponent("h2"))`
+const Title = styled(Box.withComponent("h2")).attrs({m: 0})`
   &:hover {
     color: ${theme.colors.blue};
   }
 `
 
-const Post = ({id, cover, date, tags, title}) => {
+const Post = ({excerpt, fields, frontmatter}) => {
   return (
     <Wrapper>
       <Container>
         <Cover>
-          {cover && <Image src={cover} />}
+          {frontmatter.cover && <Image src={frontmatter.cover} />}
           <ImageOverlay>
-            <Overlay postId={id} cover={cover} />
+            <Overlay slug={fields.slug} cover={frontmatter.cover} />
           </ImageOverlay>
         </Cover>
         <Box p={3}>
-          <Flex align="center" justify="space-between" wrap>
-            <Flex align="center">
-              <Text color={theme.colors.blue} mr={1}>
-                <IconUser />
-              </Text>
-              by Ced
-            </Flex>
-            {date && (
-              <Flex align="center">
+          <Flex alignItems="center" justify="space-between" wrap>
+            {frontmatter.date && (
+              <Flex alignItems="center">
                 <Text color={theme.colors.blue} mr={1}>
-                  <IconCalendar />
+                  <IconCalendar width="20px" height="20px" />
                 </Text>
-                {date}
+                <Text fontSize={1}>{frontmatter.date}</Text>
+              </Flex>
+            )}
+            {frontmatter.author && (
+              <Flex alignItems="center" ml={3}>
+                <Text color={theme.colors.blue} mr={1}>
+                  <IconUser width="20px" height="20px" />
+                </Text>
+                <Text fontSize={1}>{frontmatter.author}</Text>
               </Flex>
             )}
           </Flex>
           <Box my={2}>
-            <Link to={`/blog/${id}/`}>
-              <Title>{title || id}</Title>
+            <Link to={fields.slug}>
+              <Title>{frontmatter.title}</Title>
             </Link>
           </Box>
           <Box>
-            Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat
-            volutpat. Quisque at finibus dui. Praesent…{" "}
+            <div dangerouslySetInnerHTML={{__html: excerpt}} />
           </Box>
-          {tags &&
-            tags.length > 0 && (
-              <Flex mt={2} wrap align="center">
+          {frontmatter.tags &&
+            frontmatter.tags.length > 0 && (
+              <Flex mt={2} wrap alignItems="center">
                 <Text color={theme.colors.blue} mt={1} mr={1}>
-                  <IconTags />
+                  <IconTags width="20px" height="20px" />
                 </Text>
-                {tags.map(tag => <Tag key={tag} value={tag} />)}
+                {frontmatter.tags.map(tag => (
+                  <Tag key={tag} value={tag} />
+                ))}
               </Flex>
             )}
         </Box>

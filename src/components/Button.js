@@ -1,9 +1,9 @@
 import styled from "styled-components"
 import {fontSize, space} from "styled-system"
 
-import theme from "~/utils/theme"
+import theme from "utils/theme"
 
-const Button = styled.button.attrs({px: 2, py: 1, f: 1})`
+const Button = styled.button.attrs({px: 2, py: 1, fontSize: 1})`
   border-radius: 100px;
   border-style: solid;
   border-width: 1px;

@@ -1,12 +1,14 @@
 import React from "react"
 import styled from "styled-components"
+import _ from "lodash"
 
-import Link from "~/components/Link"
-import theme from "~/utils/theme"
+import theme from "utils/theme"
+import Link from "components/Link"
 
-const Wrapper = styled(Link).attrs({f: 1})`
+const Wrapper = styled(Link).attrs({fontSize: 1})`
   border-radius: 5px;
   padding: ${theme.space[1]}px;
+  box-shadow: none;
   border: 1px solid ${theme.colors.text};
   transition: 0.3s all ease-in-out;
   color: ${theme.colors.gray2};
@@ -19,6 +21,8 @@ const Wrapper = styled(Link).attrs({f: 1})`
   }
 `
 
-const Tag = ({value}) => <Wrapper to={`/tag/${value}`}>{value}</Wrapper>
+const Tag = ({value}) => (
+  <Wrapper to={`/tag/${_.kebabCase(value)}`}>{value}</Wrapper>
+)
 
 export default Tag

@@ -3,9 +3,9 @@ import React from "react"
 import styled from "styled-components"
 import {Flex, Box} from "grid-styled"
 
-import IconLink from "~/icons/Link"
-import IconSearchPlus from "~/icons/SearchPlus"
-import Lightbox from "~/components/Lightbox"
+import Lightbox from "components/Lightbox"
+import {ReactComponent as IconLink} from "icons/calendar.svg"
+import {ReactComponent as IconSearchPlus} from "icons/calendar.svg"
 
 const Wrapper = styled(Flex).attrs({align: "center"})`
   position: relative;
@@ -74,7 +74,7 @@ class Overlay extends React.Component {
 
   render() {
     const {lightboxOpen} = this.state
-    const {postId, cover} = this.props
+    const {slug, cover} = this.props
     return (
       <Wrapper>
         {cover && (
@@ -85,7 +85,7 @@ class Overlay extends React.Component {
             showImageCount={false}
           />
         )}
-        <ItemPost to={`/blog/${postId}/`}>
+        <ItemPost to={slug}>
           <IconWrapper>
             <IconLink size="25" />
           </IconWrapper>

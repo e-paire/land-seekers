@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import theme from "~/utils/theme"
+import theme from "utils/theme"
 
 const Input = styled.input`
   border: 2px solid ${theme.colors.white};
