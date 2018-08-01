@@ -2,7 +2,7 @@ import React from "react"
 
 import Link from "components/Link"
 
-const Tags = ({data}) => {
+const Author = ({data}) => {
   const author = data.markdownRemark
   return (
     <div>
@@ -13,11 +13,11 @@ const Tags = ({data}) => {
   )
 }
 
-export default Tags
+export default Author
 
 export const pageQuery = graphql`
   query AuthorPage($author: String) {
-    markdownRemark(frontmatter: {name: {eq: $author}}) {
+    markdownRemark(frontmatter: {title: {eq: $author}}) {
       html
       frontmatter {
         title

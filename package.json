@@ -1,13 +1,20 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "land-seekers",
+  "description": "Land seekers blog",
+  "private": "true",
+  "author": "Cédric Delpoux <xuopled@gmail.com>",
+  "homepage": "https://landseekers.blog",
+  "keywords": ["blog", "travel"],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-paire/land-seekers.git"
+  },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/e-paire/land-seekers/issues"
   },
   "dependencies": {
-    "@mosch/gatsby-source-github": "^0.4.1",
     "babel-plugin-styled-components": "^1.5.1",
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.39",
@@ -25,7 +32,6 @@
     "gatsby-plugin-sharp": "^1.6.42",
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-svgr": "^1.0.1",
-    "gatsby-plugin-typography": "^1.7.18",
     "gatsby-remark-copy-linked-files": "^1.5.31",
     "gatsby-remark-external-links": "^0.0.4",
     "gatsby-remark-images": "^1.5.61",
@@ -43,32 +49,21 @@
     "react-responsive-masonry": "^2.0.0",
     "styled-components": "^3.3.3",
     "styled-media-query": "^2.0.2",
-    "styled-system": "^3.0.2",
-    "typeface-merriweather": "0.0.43",
-    "typeface-montserrat": "0.0.43",
-    "typography-theme-wordpress-2016": "^0.15.10"
+    "styled-system": "^3.0.2"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-react": "^7.7.0",
     "gatsby-plugin-root-import": "^1.0.0",
     "gh-pages": "^1.1.0",
     "prettier": "^1.12.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": ["gatsby"],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "yarn update-content && gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
-    "develop": "gatsby develop",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",

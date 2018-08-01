@@ -1,9 +1,9 @@
-import {Link} from "react-router"
 import React from "react"
 import styled from "styled-components"
 import {Flex, Box} from "grid-styled"
 
 import Lightbox from "components/Lightbox"
+import Link from "components/Link"
 import {ReactComponent as IconLink} from "icons/calendar.svg"
 import {ReactComponent as IconSearchPlus} from "icons/calendar.svg"
 

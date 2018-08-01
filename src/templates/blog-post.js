@@ -50,7 +50,7 @@ class BlogPostTemplate extends React.Component {
                     {tags.map((tag, i) => (
                       <Box key={tag}>
                         <Link key={tag} to={`/tag/${tag}`}>
-                          {tag}
+                          <Text fontSize={1}>{tag}</Text>
                         </Link>
                         {i < tags.length - 1 && <Text mr={1}>{","}</Text>}
                       </Box>
@@ -58,7 +58,7 @@ class BlogPostTemplate extends React.Component {
                   </Flex>
                 )}
             </Flex>
-            <Box is="hr" my={1} />
+            <Box is="hr" mt={1} mb={3} />
           </React.Fragment>
         )}
         <div dangerouslySetInnerHTML={{__html: post.html}} />
@@ -105,7 +105,7 @@ export const pageQuery = graphql`
       frontmatter {
         author
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY", locale: "fr")
         tags
       }
     }

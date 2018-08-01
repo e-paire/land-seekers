@@ -37,7 +37,7 @@ h2 {
 
 hr {
   height: 1px;
-  color: ${theme.colors.gray2};
+  color: ${theme.colors.gray};
 }
 `
 
@@ -59,8 +59,7 @@ const Content = styled(Flex).attrs({
 
 class Template extends React.Component {
   render() {
-    const {location, children} = this.props
-
+    const {children} = this.props
     return (
       <React.Fragment>
         <Helmet>

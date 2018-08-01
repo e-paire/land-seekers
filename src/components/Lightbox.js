@@ -6,10 +6,12 @@ class ImageLightbox extends React.Component {
     index: 0,
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (this.props.index !== nextProps.index) {
-      this.setState({index: nextProps.index})
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (prevState.index !== nextProps.index) {
+      return {index: nextProps.index}
     }
+
+    return null
   }
 
   handleClose = () => {

@@ -6,14 +6,13 @@ import media from "styled-media-query"
 import Tag from "components/Tag"
 import Text from "components/Text"
 import Link from "components/Link"
-import Overlay from "./Overlay"
 import theme from "utils/theme"
 
 import {ReactComponent as IconCalendar} from "icons/calendar.svg"
 import {ReactComponent as IconUser} from "icons/user.svg"
 import {ReactComponent as IconTags} from "icons/tags.svg"
 
-// import Overlay from "./Overlay"
+import Overlay from "./Overlay"
 
 const Container = styled(Box).attrs({m: [0, 2]})`
   ${media.greaterThan("medium")`

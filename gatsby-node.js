@@ -8,9 +8,10 @@ const blogPostTemplate = path.resolve("./src/templates/blog-post.js")
 const tagTemplate = path.resolve("./src/templates/tag.js")
 const tagsTemplate = path.resolve("./src/templates/tags.js")
 const authorTemplate = path.resolve("./src/templates/author.js")
-const authorsTemplate = path.resolve("./src/templates/authors.js")
-const contactTemplate = path.resolve("./src/templates/contact.js")
-const contactAfterTemplate = path.resolve("./src/templates/after-contact.js")
+const slugPrefixes = {
+  posts: "/blog",
+  authors: "/auteur",
+}
 
 exports.createPages = ({graphql, boundActionCreators}) => {
   const {createPage} = boundActionCreators
@@ -19,7 +20,8 @@ exports.createPages = ({graphql, boundActionCreators}) => {
       graphql(
         `
           {
-            allMarkdownRemark(
+            posts: allMarkdownRemark(
+              filter: {fields: {source: {eq: "posts"}}}
               sort: {fields: [frontmatter___date], order: DESC}
               limit: 1000
             ) {
@@ -29,9 +31,23 @@ exports.createPages = ({graphql, boundActionCreators}) => {
                     slug
                   }
                   frontmatter {
-                    title
-                    author
                     tags
+                    title
+                  }
+                }
+              }
+            }
+            authors: allMarkdownRemark(
+              filter: {fields: {source: {eq: "authors"}}}
+              sort: {fields: [frontmatter___name], order: ASC}
+            ) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
                   }
                 }
               }
@@ -40,12 +56,12 @@ exports.createPages = ({graphql, boundActionCreators}) => {
         `
       ).then(result => {
         if (result.errors) {
-          console.log(result.errors)
           reject(result.errors)
         }
 
         // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges
+        const posts = result.data.posts.edges
+        const authors = result.data.authors.edges
 
         _.each(posts, (post, index) => {
           const previous =
@@ -91,19 +107,10 @@ exports.createPages = ({graphql, boundActionCreators}) => {
           },
         })
 
-        let authors = []
-        _.each(posts, edge => {
-          if (_.get(edge, "node.frontmatter.author")) {
-            authors.push(edge.node.frontmatter.author)
-          }
-        })
-        // Eliminate duplicate authors
-        authors = _.uniq(authors)
-
-        // Make tag pages
-        authors.forEach(author => {
+        authors.forEach(({node}) => {
+          const author = node.frontmatter.title
           createPage({
-            path: `/author/${_.kebabCase(author)}/`,
+            path: `/auteur/${_.kebabCase(author)}/`,
             component: authorTemplate,
             context: {
               author,
@@ -111,23 +118,23 @@ exports.createPages = ({graphql, boundActionCreators}) => {
           })
         })
 
-        createPage({
-          path: `/authors/`,
-          component: authorsTemplate,
-          context: {
-            authors,
-          },
-        })
+        // createPage({
+        //   path: `/authors/`,
+        //   component: authorsTemplate,
+        //   context: {
+        //     authors,
+        //   },
+        // })
 
-        createPage({
-          path: `/contact`,
-          component: contactTemplate,
-        })
-
-        createPage({
-          path: `/merci`,
-          component: contactAfterTemplate,
-        })
+        // createPage({
+        //   path: `/contact`,
+        //   component: contactTemplate,
+        // })
+        //
+        // createPage({
+        //   path: `/merci`,
+        //   component: contactAfterTemplate,
+        // })
       })
     )
   })
@@ -139,11 +146,26 @@ exports.onCreateNode = ({node, boundActionCreators, getNode}) => {
   const {createNodeField} = boundActionCreators
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({node, getNode})
+    const source = getNode(node.parent).sourceInstanceName
+    const slugPrefix = slugPrefixes[source]
+    let slug
+
+    if (_.get(node, "frontmatter.slug")) {
+      slug = `/${_.kebabCase(node.frontmatter.slug)}`
+    } else {
+      slug = createFilePath({node, getNode})
+    }
+
+    createNodeField({
+      name: "source",
+      node,
+      value: source,
+    })
+
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: `${slugPrefix}${slug}`,
     })
   }
 }

@@ -55,21 +55,9 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: "gatsby-plugin-typography",
-      options: {
-        pathToConfigModule: "src/utils/typography",
-      },
-    },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
@@ -94,36 +82,40 @@ module.exports = {
         root: `${__dirname}/src`,
       },
     },
-    // [
-    //   ...(process.env.NODE_ENV === "production"
-    //     ? [
-    //         `gatsby-plugin-netlify-cache`,
-    //         `gatsby-plugin-netlify-cms`,
-    //         `gatsby-plugin-netlify`,
-    //         {
-    //           resolve: `gatsby-plugin-google-tagmanager`,
-    //           options: {
-    //             id: "YOUR_GOOGLE_TAGMANAGER_ID",
-    //
-    //             // Include GTM in development.
-    //             // Defaults to false meaning GTM will only be loaded in production.
-    //             includeInDevelopment: false,
-    //
-    //             // Specify optional GTM environment details.
-    //             gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-    //             gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-    //           },
-    //         },
-    //       ]
-    //     : []),
-    // ],
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Montserrat\:700`, `Raleway`],
+        fonts: [`Montserrat:700`, `Raleway`],
       },
     },
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-styled-components`,
+    ...(process.env.NODE_ENV === "production"
+      ? [
+          {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              trackingId: process.env.GATSBY_GA_TRACKING_ID,
+            },
+          },
+          {
+            resolve: `gatsby-plugin-google-tagmanager`,
+            options: {
+              id: process.env.GATSBY_GTM_ID,
+
+              // Include GTM in development.
+              // Defaults to false meaning GTM will only be loaded in production.
+              includeInDevelopment: false,
+
+              // Specify optional GTM environment details.
+              gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+              gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+            },
+          },
+          `gatsby-plugin-netlify-cache`,
+          `gatsby-plugin-netlify-cms`,
+          `gatsby-plugin-netlify`,
+        ]
+      : []),
   ],
 }

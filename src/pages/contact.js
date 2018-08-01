@@ -24,6 +24,7 @@ const Form = styled.form`
 
 const ContactForm = () => (
   <Box>
+    <h1>Contact</h1>
     <Form
       name="contact"
       action="/merci"
