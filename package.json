@@ -15,6 +15,7 @@
     "url": "https://github.com/e-paire/land-seekers/issues"
   },
   "dependencies": {
+    "@material-ui/core": "^1.4.2",
     "babel-plugin-styled-components": "^1.5.1",
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.39",
@@ -47,6 +48,7 @@
     "netlify-cms": "^1.9.3",
     "react-images": "^0.5.19",
     "react-responsive-masonry": "^2.0.0",
+    "scrollprogress": "^3.0.2",
     "styled-components": "^3.3.3",
     "styled-media-query": "^2.0.2",
     "styled-system": "^3.0.2"
@@ -61,12 +63,11 @@
     "prettier": "^1.12.0"
   },
   "scripts": {
-    "build": "yarn update-content && gatsby build",
+    "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "update-content": "git submodule init && git submodule sync && git submodule foreach \"(git checkout master; git pull)\""
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

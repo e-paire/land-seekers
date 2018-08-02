@@ -6,6 +6,7 @@ import {Box, Flex} from "grid-styled"
 import Text from "components/Text"
 import Link from "components/Link"
 import {ButtonPrimaryOutline} from "components/Button"
+import ReadingTimeProgress from "components/ReadingTimeProgress"
 
 import {ReactComponent as IconCalendar} from "icons/calendar.svg"
 import {ReactComponent as IconUser} from "icons/user.svg"
@@ -81,6 +82,7 @@ class BlogPostTemplate extends React.Component {
             <ButtonPrimaryOutline>{"Go to home"}</ButtonPrimaryOutline>
           </Link>
         </Flex>
+        <ReadingTimeProgress />
       </div>
     )
   }

@@ -2,8 +2,9 @@ import React from "react"
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import get from "lodash/get"
 import Helmet from "react-helmet"
+import {Box} from "grid-styled"
 
-import Post from "components/Post/index"
+import Post from "components/post"
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,7 +16,11 @@ class BlogIndex extends React.Component {
         <ResponsiveMasonry>
           <Masonry>
             {posts.map(({node}) => {
-              return <Post key={node.fields.slug} {...node} />
+              return (
+                <Box m={2}>
+                  <Post key={node.fields.slug} {...node} />
+                </Box>
+              )
             })}
           </Masonry>
         </ResponsiveMasonry>

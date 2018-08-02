@@ -2,10 +2,13 @@ import React from "react"
 import styled, {injectGlobal, ThemeProvider} from "styled-components"
 import {Flex} from "grid-styled"
 import Helmet from "react-helmet"
+import AppBar from "@material-ui/core/AppBar"
+import Toolbar from "@material-ui/core/Toolbar"
 
 import theme from "utils/theme"
 import Nav from "components/Nav"
 import Link from "components/Link"
+// import Bar from "components/collapsible-bar"
 
 import {ReactComponent as Logo} from "./logo.svg"
 
@@ -69,21 +72,24 @@ class Template extends React.Component {
           <meta name="robots" content="noindex" />
         </Helmet>
         <ThemeProvider theme={theme}>
-          <Content>
-            <Header
-              justify="center"
-              alignItems="center"
-              my={3}
-              flexDirection="column"
-            >
-              <Link to="/">
-                <Logo my={[2, 3]} />
-              </Link>
-              <Nav />
-            </Header>
-            {children()}
-            <footer>{/* ... */}</footer>
-          </Content>
+          <React.Fragment>
+            {/* <Bar /> */}
+            <Content>
+              <Header
+                justify="center"
+                alignItems="center"
+                my={3}
+                flexDirection="column"
+              >
+                <Link to="/">
+                  <Logo my={[2, 3]} />
+                </Link>
+                <Nav />
+              </Header>
+              {children()}
+              <footer>{/* ... */}</footer>
+            </Content>
+          </React.Fragment>
         </ThemeProvider>
       </React.Fragment>
     )
