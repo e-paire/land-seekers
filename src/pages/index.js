@@ -4,7 +4,7 @@ import get from "lodash/get"
 import Helmet from "react-helmet"
 import {Box} from "grid-styled"
 
-import Post from "components/post"
+import Post from "components/Post/index"
 
 class BlogIndex extends React.Component {
   render() {
