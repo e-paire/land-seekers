@@ -4,12 +4,12 @@ backend:
   branch: master
 
 display_url: https://landseekers.blog
-media_folder: content/assets
+media_folder: assets
 
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "content/posts/"
+    folder: "posts/"
     create: true
     delete: true
     slug: "{{slug}}"
@@ -43,30 +43,18 @@ collections:
         required: false
   - name: "authors"
     label: "Authors"
-    folder: "content/authors/"
+    folder: "authors/"
     create: false
     delete: false
     slug: "{{slug}}"
     editor:
       preview: false
     fields:
-      - name: "name"
-        label: "Name"
-        widget: "string"
-      - name: "body"
-        label: "Body"
-        widget: "markdown"
-  - name: "pages"
-    label: "Pages"
-    folder: "content/pages/"
-    create: true
-    delete: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    fields:
       - name: "title"
         label: "Title"
+        widget: "string"
+      - name: "name"
+        label: "Name"
         widget: "string"
       - name: "body"
         label: "Body"
