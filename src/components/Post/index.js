@@ -71,6 +71,7 @@ const Post = ({excerpt, fields, frontmatter}) => {
     <Wrapper>
       <Container>
         <Cover>
+          <Image src="https://placekitten.com/300/200" alt="Kitten" />
           {frontmatter.cover && <Image src={frontmatter.cover} />}
           <ImageOverlay>
             <Overlay slug={fields.slug} cover={frontmatter.cover} />

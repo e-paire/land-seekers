@@ -1,15 +1,15 @@
 backend:
   name: github
-  repo: e-paire/land-seekers-content
+  repo: e-paire/land-seekers
   branch: master
 
 display_url: https://landseekers.blog
-media_folder: assets
+media_folder: content/images/
 
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "posts/"
+    folder: "content/posts/"
     create: true
     delete: true
     slug: "{{slug}}"
@@ -43,7 +43,7 @@ collections:
         required: false
   - name: "authors"
     label: "Authors"
-    folder: "authors/"
+    folder: "content/authors/"
     create: false
     delete: false
     slug: "{{slug}}"

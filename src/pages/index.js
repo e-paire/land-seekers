@@ -5,14 +5,21 @@ import Helmet from "react-helmet"
 import {Box} from "grid-styled"
 
 import Post from "components/Post/index"
+import Cover from "components/cover.js"
 
 class BlogIndex extends React.Component {
+  componentDidMount() {
+    this.props.updatePageData(null)
+  }
+
   render() {
+    const {headerImage} = this.props.data
     const siteTitle = get(this, "props.data.site.siteMetadata.title")
     const posts = get(this, "props.data.allMarkdownRemark.edges")
     return (
       <div>
         <Helmet title={siteTitle} />
+        <Cover image={headerImage} />
         <ResponsiveMasonry>
           <Masonry>
             {posts.map(({node}) => {
@@ -55,6 +62,11 @@ export const pageQuery = graphql`
             title
           }
         }
+      }
+    }
+    headerImage: imageSharp(id: {regex: "/tenerife-sunset/"}) {
+      sizes(maxWidth: 1240) {
+        ...GatsbyImageSharpSizes
       }
     }
   }

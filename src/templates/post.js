@@ -6,13 +6,20 @@ import {Box, Flex} from "grid-styled"
 import Text from "components/Text"
 import Link from "components/Link"
 import {ButtonPrimaryOutline} from "components/Button"
-import ReadingTimeProgress from "components/ReadingTimeProgress"
+// import ReadingTimeProgress from "components/ReadingTimeProgress"
 
 import {ReactComponent as IconCalendar} from "icons/calendar.svg"
 import {ReactComponent as IconUser} from "icons/user.svg"
 import {ReactComponent as IconTags} from "icons/tags.svg"
 
 class BlogPostTemplate extends React.Component {
+  componentDidMount() {
+    const {updatePageData, data} = this.props
+    const post = data.markdownRemark
+
+    updatePageData({title: post.frontmatter.title, timeToRead: post.timeToRead})
+  }
+
   render() {
     const post = this.props.data.markdownRemark
     const {date, author, tags, title} = post.frontmatter
@@ -21,10 +28,12 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${title} | ${siteTitle}`} />
-        <h1>{title}</h1>
+        <Box is="h1" my={3}>
+          {title}
+        </Box>
         {(date || author || tags) && (
           <React.Fragment>
-            <Box is="hr" mb={1} />
+            <Box is="hr" mb={2} />
             <Flex justifyContent="center">
               {date && (
                 <Flex alignItems="center">
@@ -59,7 +68,7 @@ class BlogPostTemplate extends React.Component {
                   </Flex>
                 )}
             </Flex>
-            <Box is="hr" mt={1} mb={3} />
+            <Box is="hr" mt={2} mb={3} />
           </React.Fragment>
         )}
         <div dangerouslySetInnerHTML={{__html: post.html}} />
@@ -82,7 +91,7 @@ class BlogPostTemplate extends React.Component {
             <ButtonPrimaryOutline>{"Go to home"}</ButtonPrimaryOutline>
           </Link>
         </Flex>
-        <ReadingTimeProgress />
+        {/* <ReadingTimeProgress /> */}
       </div>
     )
   }
@@ -101,6 +110,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: {slug: {eq: $slug}}) {
       id
       html
+      timeToRead
       fields {
         slug
       }

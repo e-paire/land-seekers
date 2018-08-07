@@ -60,6 +60,22 @@ hr {
 }
 `
 
+const Header = styled(Flex.withComponent("header"))`
+  width: 100%;
+`
+
+const Content = styled(Flex).attrs({
+  justify: "space-around",
+  align: "center",
+  flexDirection: "column",
+  px: [1, 2, 3],
+  mb: [1, 2, 3],
+})`
+  margin: auto;
+  max-width: 1000px;
+  min-height: 100vh;
+`
+
 class Template extends React.Component {
   state = {pageData: null}
 
@@ -81,7 +97,10 @@ class Template extends React.Component {
         <ThemeProvider theme={theme}>
           <React.Fragment>
             <Bar {...pageData} />
-            {children({...this.props, updatePageData: this.updatePageData})}
+            <Content pt={4}>
+              {children({...this.props, updatePageData: this.updatePageData})}
+            </Content>
+            <footer>{/* ... */}</footer>
           </React.Fragment>
         </ThemeProvider>
       </React.Fragment>
@@ -90,13 +109,3 @@ class Template extends React.Component {
 }
 
 export default Template
-
-// export const pageQuery = graphql`
-//   query IndexLayoutQuery($slug: String!) {
-//     markdownRemark(fields: {slug: {eq: $slug}}) {
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `

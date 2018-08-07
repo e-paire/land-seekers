@@ -1,4 +1,0 @@
-[submodule "content"]
-	path = content
-	url = git@github.com:e-paire/land-seekers-content.git
-	branch = master

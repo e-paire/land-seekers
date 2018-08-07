@@ -4,7 +4,7 @@ const path = require("path")
 const {createFilePath} = require("gatsby-source-filesystem")
 const {fmImagesToRelative} = require("gatsby-remark-relative-images")
 
-const blogPostTemplate = path.resolve("./src/templates/blog-post.js")
+const blogPostTemplate = path.resolve("./src/templates/post.js")
 const tagTemplate = path.resolve("./src/templates/tag.js")
 const tagsTemplate = path.resolve("./src/templates/tags.js")
 const authorTemplate = path.resolve("./src/templates/author.js")
@@ -70,6 +70,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
 
           createPage({
             path: post.node.fields.slug,
+            layout: "single",
             component: blogPostTemplate,
             context: {
               slug: post.node.fields.slug,

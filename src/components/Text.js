@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {color, fontSize, space} from "styled-system"
+import {color, fontFamily, fontSize, space} from "styled-system"
 import {Box} from "grid-styled"
 
 const italic = props => (props.italic ? {fontStyle: "italic"} : null)
@@ -13,6 +13,7 @@ const Text = styled(Box)`
   padding: 0;
   fill: currentColor;
   ${align};
+  ${fontFamily};
   ${fontSize};
   ${color};
   ${italic};
