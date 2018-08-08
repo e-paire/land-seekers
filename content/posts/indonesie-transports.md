@@ -15,13 +15,17 @@ Des que vous sortirez de l'aéroport, on se jettera sur vous pour vous proposez 
 
 ## Les transports à Bali :
 
+### Les scooters
+
 A Bali, louer un scooter est extrêmement facile et pas cher. La journée de location coûte en moyenne 50000 rouphies (2,99€). Demandez toujours à avoir un casque (qui soit a votre taille de préférence bien sûr).
 
 Notre conseil : télécharger des cartes Google Maps en hors-ligne. Cela vous permettra de pouvoir consulter la carte et de planifier des itinéraires tout en étant hors-ligne. Il suffit juste d'activer la geo-localisation. Cela vous facilitera grandement la vie car les villes ne sont pas toujours bien indiqué sur Bali. De plus, vous pourrez vous balader plus facilement dans les petits village et retrouver votre route en deux secondes.
 
+### Les taxis
+
 Si vous vous retrouvez a vous déplacez d'une ville a l'autre avec tous vos bagages sur le dos, il sera plus difficile d'opter pour le scooter. La majorité du temps nous avons opté pour un taxi. Pour un prix relativement raisonnable, il est possible de faire jusqu'à 3h de route. Ainsi, de Ubud a Munduk nous avons payé 400000 rouphies (23,91€) et de Munduk à l'aéroport 550000 rouphies (32,87€). Bien entendu il est possible de prendre un bus (il n'y a pas de train a Bali) mais ça rallonge le temps du voyage et ajoute pas mal l'inconfort. Étant donné que nous n'avions pas beaucoup de temps, nous avons toujours préféré prendre in taxi.
 
-
+### 
 
 ## Les transports à Java :
 
