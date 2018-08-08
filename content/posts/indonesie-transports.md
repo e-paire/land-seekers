@@ -29,7 +29,7 @@ Si vous vous retrouvez a vous déplacez d'une ville a l'autre avec tous vos baga
 
 ## Les transports à Java :
 
-Sur cette île, le réseau de train est bien développé. Vous pouvez réserver un billet de train en ligne sur [en.tiket.com](https://en.tiket.com/).
+Sur cette île, le réseau de train est bien développé. Vous pouvez réserver un billet de train en ligne sur [en.tiket.com](https://en.tiket.com/kereta-api).
 
 Nous avons fait un trajet en classe "ekonomika" et un en business. Le confort ne change pas, c'est juste un peu plus calme. Pour quelques rouphies de différence on avait envie de tester.
 
