@@ -1,33 +1,37 @@
 ---
 title: 'Munduk, ou la jungle Indonesienne'
 date: '2018-07-11'
+author: noushka
 tags:
   - Indonesie
 ---
-
 Munduk est une petite ville au nord de Bali, proche des twin lakes et du très fameux Temple Ulun Danu Beratan.
 
-Contrairement à Ubud, cette partie de l'île n'est pas trop touristique. On y trouve beaucoup de locaux. Les touristes s'arrêtent généralement au Temple. Plusieurs dizaines de bus étaient garés sur le parking lorsqu'on est passé. Ça ne donne pas très envie.
+Contrairement à Ubud, cette partie de l'île n'est pas trop touristique. On y trouve plus de locaux ou des Indonésiens en vacances que de touristes. En général, les touristes s'arrêtent uniquement au Temple.
 
-Des qu'on atteint la zone des Twin Lakes, on quitte un peu les villages où vendeurs viennent vous voir pour acheter quelque chose. On trouve le Bali Authentique.
+En effet, dès qu'on passe le Temple, où l'on devine facilement le nombre de touristes à en juger les dizaines de bus garés sur le parking, le Bali authentique refait surface. On quitte les espaces où les vendeurs viennent nous voir pour nous vendre quelque chose et on a qu'à observer la belle nature pour se laisser séduire. 
 
-On avait lu beaucoup de commentaires sur Munduk et on a pas été déçu du voyage.
+On avait lu beaucoup de commentaires sur Munduk et on a pas été déçu du voyage. On espère vous séduire par cet article afin que vous puissiez admirer la région par vous même.
 
-# Quoi faire
+## Balade dans la forêt de Munduk
 
-Cette région est réputé pour ses cascades, toutes aussi jolie les unes que les autres (on a quand même un coup de coeur !). Les cascades sont indiquées depuis le bord de la route. En général, il y a un parking (payant) proche du sentier qui permet d'accéder a la cascade.
+Il existe une petite randonnée d'environ 10km où vous pourrez admirer 4 cascades différentes. Le chemin est entretenue et balisé tout le long. Vous pouvez faire la randonnée dans le sens que vous voulez étant donné que vous pouvez débuter la randonnée à plusieurs endroit. 
 
-Sur la route qui longe les twin lake, vous trouverez facilement 3 ou 4 chemins menant à une cascade. Notre petit conseil : allez-y tôt pour profiter d'être un peu seul. En général, les touristes arrivent vers 12h.
+A certaines endroits vous croiserez des guichets qui vous demande 10000 rouphies (0,60€) de droit d'entrée. Nous avons préféré la cascade XXX qui se trouve dans un petit écrin de verdure très bien entretenue, au calme à côté d'un warung. Il y a des petits cafés où deguster du café ou des délicieux jus à quelques endroits sur le chemin. Cela n'entrave pas pour autant la tranquillité et le calme de la randonnée. 
 
-# Banyumala Waterfall ou twin waterfalls :
+Nous n'avons croisé que quelques touristes accompagnés de guide. A ce sujet, vous n'avez pas besoin de guide pour faire cette randonnée. Si vous avez un scooter, l'accès est très facile et la randonnée également. 
 
-Comme son nom l'indique, il s'agit d'une double cascade qui a la chance d'avoir un petit lac devant où l'on peux se baigner. On se répète mais c'est pour être sur que vous l'ayiez lu : allez y tôt. Raison 1: vous serez casi seul jusqu'à 11h30, quel plaisir de se baigner aux pieds des cascades et être seul (ou presque a 2, 3 personnes prêt). Raison 2 : les cascades commencent a être a l'heure vers 14h. Les photos seront moins jolie.
 
-Cascades de Xxx (la randonnée depuis l'hôtel)
 
-Il s'agit là d'une randonnée d'environ 10km où vous pourrez admirer 4 cascades différentes durant votre itinéraire. Il vous arrivera de croiser des guichets qui vous demandent 10000 rouphies par personne. Vous trouverez des petits cafés a certains endroit où deguster du café ou des délicieux jus.
+## Banyumala Waterfall ou twin waterfalls :
 
-Cette randonnée est accessible depuis notre guest house "Amila Guest House and Waring". C'était idéal pour une randonnée de l'après-midi.
+La région de Munduk est réputée pour ses cascades, toutes aussi jolie les unes que les autres. Elles sont généralement indiquées depuis le bord de la route. En effet, sur la route qui longe les twin lake, vous trouverez facilement 3 ou 4 chemins menant à une cascade. Ouvrez bien l'oeil, certains panneaux sont plus ou moins visible. 
+
+Temps oblige, nous n'avons pu faire qu'une seule cascade. Notre choix s'est porté sur Banyumala Waterfall. Il s'agit d'une double cascade qui a la chance d'avoir un petit lac devant où l'on peux se baigner. L'idéal est d'y aller tôt, vers 10h, pour profiter d'être (casiment) seul et d'apprécier le soleil qui tape sur les cascades. En effet, plus l'heure tourne, plus les touristes seront nombreux et plus l'ombre va se déployer sur les cascades. C'est pour cette double raison que nous vous conseillons d'y aller tôt afin d'apprécier la beauté du paysage seul. A partir de 12/13h, les touristes arrivent, accompagnés de leurs guides.
+
+A notre avis, le guide n'est pas nécessaire. Encore une fois, si vous avez un scooter, profitez de votre liberté pour vous baladez seul et à l'heure que vous souhaitez. 
+
+
 
 Cascade de Gît Gît :
 
