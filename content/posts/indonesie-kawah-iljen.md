@@ -19,6 +19,8 @@ Notre voyage s'est déroulée de la manière suivante :
 * départ à minuit pour Kawah Iljen
 * retour à 8h au guesthouse
 
+
+
 ## Se rendre au pied du volcan Kawah Iljen
 
 ### Aller jusqu'à Banjuwangi
@@ -67,16 +69,32 @@ Si vous ne souhaitez pas descendre dans le cratère, on vous conseille de vous d
 
 
 
+## Où dormir proche de Kawah Iljen
+
+Dormir est un bien grand mot étant donné qu'il faut se lever a minuit ! Néanmoins, le village Banjuwangi est un bon point de chute car la ville est facilement accessible en transport en commun.
+
+Comme un peu partout, vous pourrez toujours trouver un logement sur place. Si vous choissisez cette option, il est conseillé de descendre à l'arrêt de train Banjuwangi et non pas Karangasem car vous serez directement au centre ville, avec une offre plus large. En effet, il n'y avait presque personne à la gare de Karangasem.
+
+Notre logement est sommaire mais acceptable pour faire la sieste pendant quelques heures. Nous étions surtout content lorsqu'on a vu le petit déjeuner copieux qui nous a été servi lors du retour de Kawah Iljen à 8h du matin. Notre logement : [Osing Vacation](https://www.booking.com/hotel/id/osingvacation.fr.html?aid=318615;label=New_French_FR_FR_21427176745-lf4RzVY0_AMET1LMhdKl_AS99511241185%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi23286912936%3Atiaud-146342138230%3Adsa-355815316927%3Alp9055230%3Ali%3Adec%3Adm;sid=f24a79b22e1a6ca4b62f9f3a9a5cbe60;dest_id=-2671874;dest_type=city;dist=0;hapos=1;hpos=1;room1=A%2CA;sb_price_type=total;srepoch=1533737080;srfid=5a0dd4f5d73ed2146a21bbc089bb822d7a42b487X1;srpvid=f91b62fc93870023;type=total;ucfs=1&#hotelTmpl). 
 
 
-En bref :
 
-On vous conseille de rester une nuit sur place. Il n'y a pas grand chose d'extraordinaire a faire. Vous pouvez enchaîner avec Bali ou prendre la route pour Bromo.
+## Où manger à Banjuwangi
 
-Où dormir :
-Le village Banjuwangi est un bon point de départ pour l'ascension car la ville est facilement accessible en transport en commun.
-Nous vous conseillons de dormir dans le village a côté Banjuwangi et de partir avec un guide vers minuit. Il y a environ 1h30 de route, plus l'ascension. Vous serez au cratère vers 4h30.
+Joker ! Nous n'avons pas trouvé la ville très attrayante en s'y baladant, on ne peut rien vous conseiller à ce niveau là. Si quelqu'un à un conseil à ce sujet, n'hésitez pas à en faire part dans les commentaires. 
 
-Où dormir
 
-Dormir est un bien grand mot étant donné qu'il faut se lever a minuit. Nous avons dormi dans un petit guest house où le confort n'était pas tip top (mais on ne peut pas s'attendre a grand chose pour 7€ la nuit) mais le propriétaire très gentil. Sachant qu'un avait juste besoin d'un endroit où dormir quelques heure, ça a fait l'affaire. Au retour de Kawah Iljen, on a eu droit a un petit déjeuner très copieux. De quoi nous remettre en forme pour tenir le reste de la journée. Le nom de notre guest house était Osing Vacation.
+
+## Combien de temps rester sur place 
+
+On vous conseille de rester une nuit sur place. Il n'y a pas grand chose d'extraordinaire a faire. Vous pouvez enchaîner avec Bali ou prendre la route pour le Bromo.
+
+
+
+Ce qu'on a aimé :
+
+* les lumières bleu, atypique et tellement beau
+
+ce qu'on à moins aimé :
+
+* la ville de Banjuwangi qui n'a rien d'exceptionnel à nos yeux
