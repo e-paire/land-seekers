@@ -2,6 +2,7 @@
 title: L'aventure du mont Bromo sans guide
 date: '2018-07-11'
 author: noushka
+cover: /content/images/lever_de_soleil_bromo_indonesie.jpg
 tags:
   - Indonesie
 ---
@@ -51,8 +52,6 @@ Deux possibilités s'offrent à vous :
 
 Entre l'option payante et la gratuite, notre choix n'a pas été trop difficile à prendre, d'autant plus que le chemin de randonnée est très accessible. Il n'y a aucune difficulté majeure. On vous explique notre petite randonnée ci-dessous.
 
-
-
 **Aller jusqu'au point de vue King Kong Hill sans guide**
 
 Avant d'y être allé, nous avons lu beaucoup d'articles, conseils et avis sur le fameux Bromo. On espère que notre puisse vous apporter toutes les réponses complémentaire.
@@ -70,6 +69,8 @@ Nous n'avons pas rencontré de barrière ou de guide nous forçant a payer un dr
 * Etape 6 (optionnelle) : continuez jusqu'au Mont Penanjakan. C'est là où se rendent toutes les jeeps. Il vaut mieux y aller une fois que les 200 jeeps sont partis (et 200 n'est pas exagéré)
 
 Une fois au sommet, à plus de 2000mètres d'altitiude, l'air n'est pas très chaud, surtout tant que le soleil est encore couché. Il est important de bien se couvrir. Nous avions un petit manteau, écharpe et gants. Une fois bien installé dans vos vêtements, vous n'avez plus qu'à attendre que le spectacle commence !
+
+![Le soleil se lève sur le mont Bromo en Indonésie](/content/images/le_soleil_se_leve_sur_bromo.jpg)
 
 Toutes les personnes venues en Jeep repartent les premiers pour se rendre dans le cratère de Bromo. Si vous n'etes pas pressé, nous vous conseillons de rester un peu, et pouvoir profiter du calme absolu une fois que vous le monde est parti. Vous verrez, en l'espace de 20 à 30 minutes, tous les touristes seront parti et vous pourrez photographier les lieux en toute tranquillité.
 
