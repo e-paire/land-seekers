@@ -74,6 +74,8 @@ Une fois au sommet, à plus de 2000mètres d'altitiude, l'air n'est pas très ch
 
 Toutes les personnes venues en Jeep repartent les premiers pour se rendre dans le cratère de Bromo. Si vous n'etes pas pressé, nous vous conseillons de rester un peu, et pouvoir profiter du calme absolu une fois que vous le monde est parti. Vous verrez, en l'espace de 20 à 30 minutes, tous les touristes seront parti et vous pourrez photographier les lieux en toute tranquillité.
 
+![Venir avec un guide au Bromo](/content/images/venir_avec_un_guide_au_mont_bromo.jpg)
+
 ## Voir le cratère du Bromo par la suite :
 
 Après avoir admiré la vue, vous pouvez descendre dans la Caldeira pour voir le cratère du volcan Bromo, qui est toujours en activité pour rappel. 
@@ -88,7 +90,11 @@ En montant, on vous conseille de vous munir d'une petite écharpe ou quelque cho
 
 ## Ceremonie Yandya Kasada
 
-Nous avons eu la chance d'être au village un jour de cérémonie Hindou. En effet, le peuple indigère Tengger hindous continue d'organiser des cérémonies. Yandya Kasade est la plus importante de ces cérémonies. Elle est célébrée une fois par an, le 14ème jour du mois de Kasade du calendrier lunaire traditionnel hindous. Pendant 2 jours, les hindous se déplacent en nombre jusqu'au cratère et jettent toutes sortes d'offrandes comme de la salade, poirreaux mais aussi des poules ou des brebis dans le cratère dans le but de les protéger du mal ! Malgré le danger évident que cela peut comporter, certains essayent de rattraper les offrandes qui sont jétés pensant que ça veut leur porter bonne chance. Un spectable atypique et impressionnant. 
+Nous avons eu la chance d'être au village un jour de cérémonie Hindou. En effet, le peuple indigène Tengger hindous continue d'organiser des cérémonies. Yandya Kasade est la plus importante de ces cérémonies. Elle est célébrée une fois par an, le 14ème jour du mois de Kasade du calendrier lunaire traditionnel hindous. Pendant 2 jours, les hindous se déplacent en nombre jusqu'au cratère et jettent toutes sortes d'offrandes comme de la salade, poirreaux mais aussi des poules ou des brebis dans le cratère dans le but de les protéger du mal ! Malgré le danger évident que cela peut comporter, certains essayent de rattraper les offrandes qui sont jetées pensant que ça veut leur porter bonne chance. Un spectacle atypique et impressionnant. 
+
+![Celebration Yandya Kasade au Mont Bromo](/content/images/ceremonie_hindou_au_mont_bromo.jpg)
+
+
 
 ## Où dormir au village de Ceromo Lawang
 
