@@ -89,9 +89,3 @@ Se rouler dans la neige quand on a trop chaud au sauna
 Ce que je n'ai pas aimé
 
 La durée du voyage mais ça fait partie du jeu
-
-Mes conseils avant le départ
-
-Réserver les activités en avance si vous tenez à faire quelque chose en particulier. On n'est jamais trop prudent
-
-Si vous faites un bout de route en train, pensez à réserver les places
