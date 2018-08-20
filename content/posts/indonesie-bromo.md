@@ -1,15 +1,16 @@
 ---
 title: L'aventure du mont Bromo sans guide
-date: '2018-07-11'
+date: "2018-07-11"
 author: noushka
 cover: /content/images/lever_de_soleil_bromo_indonesie.jpg
 tags:
-  - Indonesie
+    - Indonesie
 ---
+
 Java, l'île principale d'Indonésie est riche en volcans. 500 volcans sont répartis sur l'archipel dont une centaine sont encore en activité. Le volcan du Bromo est considéré comme étant l'un des plus beaux au monde.
 Le mont Bromo se trouve dans une vallée de sable, appellé la Caldeira, à côté du Mont Batok et du Mont Semeru.. La caldeira est très belle à observer lors du lever du soleil. On s'aventure au petit matin pour une randonnée jusqu'à un point d'observation, et au fur et à mesure que les rayons de soleil s'illuminent, on découvre sous nos yeux les magnifiques volcans. Un vraie carte postale. Sachez que le soleil ne se lève pas directement sur le mont Bromo, mais la lumière que le soleil projète sur les volcans est magnifique. Les couleurs de la caldeira évoluent au fur et à mesure jusqu'à laisser entrevoir tous les volcans.
 
-On vous raconte notre expérience dans l'article consacré aux paysages du mont Bromo. 
+On vous raconte notre expérience dans l'article consacré aux paysages du mont Bromo.
 
 Une fois le soleil à son appogé, on peut descendre dans la Caldeira pour faire l'ascension du volcan Bromo pour observer le cratère (en activité).
 
@@ -17,12 +18,12 @@ Admirer le lever du soleil sur le volcan du Bromo se mérite. L'accès nécessit
 
 Notre aventure bromonienne se résume ainsi :
 
-* Train de Yogyakarta jusqu'à Probollingo (9h de trajet)
-* Mini-bus de Probollingo à Ceromo Lawang (1h30 de trajet)
-* randonnée nocture jusqu'au point d'observation pour voir le soleil se lever sur la Caldeira
-* descente en scooter jusqu'à Bromo
-* ascension du mont Bromo
-* retour à l'hôtel pour une très très long sieste
+-   Train de Yogyakarta jusqu'à Probollingo (9h de trajet)
+-   Mini-bus de Probollingo à Ceromo Lawang (1h30 de trajet)
+-   randonnée nocture jusqu'au point d'observation pour voir le soleil se lever sur la Caldeira
+-   descente en scooter jusqu'à Bromo
+-   ascension du mont Bromo
+-   retour à l'hôtel pour une très très long sieste
 
 ## Aller à Ceromo Lawang
 
@@ -43,12 +44,12 @@ Notre conseil : négociez bien le prix, mais surtout, faites vous bien valider l
 
 ## Voir le lever du soleil
 
-Après toute cette aventure pour arriver au village, vous avez mérité de voir le lever de soleil sur la caldeira. 
+Après toute cette aventure pour arriver au village, vous avez mérité de voir le lever de soleil sur la caldeira.
 
 Deux possibilités s'offrent à vous :
 
-* se faire conduire en jeep ou en scooter au sommet du Mont Penanjakan (payant)
-* s'y rendre par vous même (gratuit)
+-   se faire conduire en jeep ou en scooter au sommet du Mont Penanjakan (payant)
+-   s'y rendre par vous même (gratuit)
 
 Entre l'option payante et la gratuite, notre choix n'a pas été trop difficile à prendre, d'autant plus que le chemin de randonnée est très accessible. Il n'y a aucune difficulté majeure. On vous explique notre petite randonnée ci-dessous.
 
@@ -60,13 +61,13 @@ Le soleil se lève vers 5h20. Il faut partir vers 2h30 pour pouvoir prendre le t
 
 Nous n'avons pas rencontré de barrière ou de guide nous forçant a payer un droit d'entrée. La route se trouve facilement sur Google Maps. Voici quelques explications supplémentaires :
 
-* Étape 1 : il faut se rendre à la fourche principale du village et prendre a droite. Continuez sur la droite également a la prochaine fourche. Pour vous repérez, vous verez l'hôtel/restaurant Cerama Inda Hotel sur la gauche. En voyant cet établissement, cela signifie que vous devez prendre a droite.
-* Étape 2 : continuez a marcher sur cette route bitumé pendant environ 35 min. Vous passerez devant des cabanes où vous pouvez acheter de quoi manger ou boire.
-* Étape 3 : le début des marches. A la fin des marches vous arriverez a un premier point du vue. Si vous avez encore de l'énergie, on vous conseille de continuer.
-* Étape 4 : début du petit sentier. Ça ne présente aucun danger. Nous n'avons pas vu d'araignées ou entendu des bruits bizarres. Se balader dans un tout petit sentier la nuit fait quand même un peu peur. Heuresement que mon mari était là pour me rassurer. 
-  A la fin du sentier vous arrivez a King Kong Hill. Juste au-dessus de là se trouve une petite bute qui présente un superbe point de vue et où les touristes ne vont pas trop. On vous conseille de vous mettre là.
-* Étape 5 (optionnelle) : aller a King Kong Hill bis. Il y a autant de monde si ce n'est plus.
-* Etape 6 (optionnelle) : continuez jusqu'au Mont Penanjakan. C'est là où se rendent toutes les jeeps. Il vaut mieux y aller une fois que les 200 jeeps sont partis (et 200 n'est pas exagéré)
+-   Étape 1 : il faut se rendre à la fourche principale du village et prendre a droite. Continuez sur la droite également a la prochaine fourche. Pour vous repérez, vous verez l'hôtel/restaurant Cerama Inda Hotel sur la gauche. En voyant cet établissement, cela signifie que vous devez prendre a droite.
+-   Étape 2 : continuez a marcher sur cette route bitumé pendant environ 35 min. Vous passerez devant des cabanes où vous pouvez acheter de quoi manger ou boire.
+-   Étape 3 : le début des marches. A la fin des marches vous arriverez a un premier point du vue. Si vous avez encore de l'énergie, on vous conseille de continuer.
+-   Étape 4 : début du petit sentier. Ça ne présente aucun danger. Nous n'avons pas vu d'araignées ou entendu des bruits bizarres. Se balader dans un tout petit sentier la nuit fait quand même un peu peur. Heuresement que mon mari était là pour me rassurer.
+    A la fin du sentier vous arrivez a King Kong Hill. Juste au-dessus de là se trouve une petite bute qui présente un superbe point de vue et où les touristes ne vont pas trop. On vous conseille de vous mettre là.
+-   Étape 5 (optionnelle) : aller a King Kong Hill bis. Il y a autant de monde si ce n'est plus.
+-   Etape 6 (optionnelle) : continuez jusqu'au Mont Penanjakan. C'est là où se rendent toutes les jeeps. Il vaut mieux y aller une fois que les 200 jeeps sont partis (et 200 n'est pas exagéré)
 
 Une fois au sommet, à plus de 2000mètres d'altitiude, l'air n'est pas très chaud, surtout tant que le soleil est encore couché. Il est important de bien se couvrir. Nous avions un petit manteau, écharpe et gants. Une fois bien installé dans vos vêtements, vous n'avez plus qu'à attendre que le spectacle commence !
 
@@ -78,7 +79,7 @@ Toutes les personnes venues en Jeep repartent les premiers pour se rendre dans l
 
 ## Voir le cratère du Bromo par la suite :
 
-Après avoir admiré la vue, vous pouvez descendre dans la Caldeira pour voir le cratère du volcan Bromo, qui est toujours en activité pour rappel. 
+Après avoir admiré la vue, vous pouvez descendre dans la Caldeira pour voir le cratère du volcan Bromo, qui est toujours en activité pour rappel.
 
 Pour cela, vous pouvez redescendre par le même chemin qu'à l'allé jusqu'au village. Ensuite, il faut passer devant l'hôtel Lava Lava (VERIFIER LE NOM) et suivre la route jusqu'à l'entrée de la Caldeira. Il paraît que l'entrée coûte 315000 rouphies par personne (18,60€). Il paraît également qu'il y a un passage derrière hôtel restaurant Xxx (VERIFIER LE NOM) qui vous permet de passer mais nous ne l'avons pas cherché. Si jamais vous y êtes passé, n'hésitez pas le dire en commentaire pour aider les prochains land seekers.
 
@@ -90,17 +91,15 @@ En montant, on vous conseille de vous munir d'une petite écharpe ou quelque cho
 
 ## Ceremonie Yandya Kasada
 
-Nous avons eu la chance d'être au village un jour de cérémonie Hindou. En effet, le peuple indigène Tengger hindous continue d'organiser des cérémonies. Yandya Kasade est la plus importante de ces cérémonies. Elle est célébrée une fois par an, le 14ème jour du mois de Kasade du calendrier lunaire traditionnel hindous. Pendant 2 jours, les hindous se déplacent en nombre jusqu'au cratère et jettent toutes sortes d'offrandes comme de la salade, poirreaux mais aussi des poules ou des brebis dans le cratère dans le but de les protéger du mal ! Malgré le danger évident que cela peut comporter, certains essayent de rattraper les offrandes qui sont jetées pensant que ça veut leur porter bonne chance. Un spectacle atypique et impressionnant. 
+Nous avons eu la chance d'être au village un jour de cérémonie Hindou. En effet, le peuple indigène Tengger hindous continue d'organiser des cérémonies. Yandya Kasade est la plus importante de ces cérémonies. Elle est célébrée une fois par an, le 14ème jour du mois de Kasade du calendrier lunaire traditionnel hindous. Pendant 2 jours, les hindous se déplacent en nombre jusqu'au cratère et jettent toutes sortes d'offrandes comme de la salade, poirreaux mais aussi des poules ou des brebis dans le cratère dans le but de les protéger du mal ! Malgré le danger évident que cela peut comporter, certains essayent de rattraper les offrandes qui sont jetées pensant que ça veut leur porter bonne chance. Un spectacle atypique et impressionnant.
 
 ![Celebration Yandya Kasade au Mont Bromo](/content/images/ceremonie_hindou_au_mont_bromo.jpg)
-
-
 
 ## Où dormir au village de Ceromo Lawang
 
 Le village a l'habitude d'accueiller beaucoup de touristes. Il y a beaucoup de guest house et hôtel. La réservation n'est pas forcément obligatoire. Comme partout en Indonésie, vous pouvez toujours trouver quelque chose sur place. Notre choix de logement s'est porté sur Bromo Otix, une guest house à l'entrée du village.
 
-Si vous ne voulez pas loger à Ceromo Lawang, vous pouvez opter pour un autre village se situant entre Ceromo Lawang et Probollingo. Cependant, si vous faites cela, nous vous conseillons très fortement de monter en Jeep jusqu'au point de vue. 
+Si vous ne voulez pas loger à Ceromo Lawang, vous pouvez opter pour un autre village se situant entre Ceromo Lawang et Probollingo. Cependant, si vous faites cela, nous vous conseillons très fortement de monter en Jeep jusqu'au point de vue.
 
 ## Où manger
 

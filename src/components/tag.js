@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import _ from "lodash"
+import kebabCase from "lodash/kebabCase"
 
-import theme from "utils/theme"
-import Link from "components/Link"
+import theme from "../utils/theme"
+import Link from "../components/link"
 
 const Wrapper = styled(Link).attrs({fontSize: 1})`
   border-radius: 5px;
@@ -22,7 +22,7 @@ const Wrapper = styled(Link).attrs({fontSize: 1})`
 `
 
 const Tag = ({value}) => (
-  <Wrapper to={`/tag/${_.kebabCase(value)}`}>{value}</Wrapper>
+  <Wrapper to={`/tag/${kebabCase(value)}`}>{value}</Wrapper>
 )
 
 export default Tag

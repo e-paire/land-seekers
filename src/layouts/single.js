@@ -1,16 +1,16 @@
 import React from "react"
 import styled, {injectGlobal, ThemeProvider} from "styled-components"
-import {Flex} from "grid-styled"
+import {Box, Flex} from "grid-styled"
 import Helmet from "react-helmet"
 import {prop} from "styled-tools"
 
-import theme from "utils/theme"
-import Nav from "components/Nav"
-import Link from "components/Link"
-import Text from "components/Text"
-import Bar from "components/collapsible-bar"
+import theme from "../utils/theme"
+import Nav from "../components/nav"
+import Link from "../components/link"
+import Text from "../components/text"
+import Bar from "../components/collapsible-bar"
 
-import beynoTTF from "fonts/beyno.ttf"
+import beynoTTF from "../fonts/beyno.ttf"
 import {ReactComponent as Logo} from "./logo.svg"
 
 injectGlobal`
@@ -35,7 +35,7 @@ body {
 }
 
 body a {
-  border-bottom: 1px solid ${prop(theme.colors.blue)};
+  border-bottom: 1px solid ${prop(theme.colors.primary)};
   box-shadow: inset 0 -2px 0px 0px #e0d6eb;
 }
 
@@ -64,18 +64,6 @@ const Header = styled(Flex.withComponent("header"))`
   width: 100%;
 `
 
-const Content = styled(Flex).attrs({
-  justify: "space-around",
-  align: "center",
-  flexDirection: "column",
-  px: [1, 2, 3],
-  mb: [1, 2, 3],
-})`
-  margin: auto;
-  max-width: 1000px;
-  min-height: 100vh;
-`
-
 class Template extends React.Component {
   state = {pageData: null}
 
@@ -97,9 +85,7 @@ class Template extends React.Component {
         <ThemeProvider theme={theme}>
           <React.Fragment>
             <Bar {...pageData} />
-            <Content pt={4}>
-              {children({...this.props, updatePageData: this.updatePageData})}
-            </Content>
+            {children({...this.props, updatePageData: this.updatePageData})}
             <footer>{/* ... */}</footer>
           </React.Fragment>
         </ThemeProvider>

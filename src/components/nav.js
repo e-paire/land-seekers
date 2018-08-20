@@ -3,11 +3,11 @@ import styled from "styled-components"
 import {Flex, Box} from "grid-styled"
 import media from "styled-media-query"
 
-import theme from "utils/theme"
-import Link from "components/Link"
-import {ButtonPrimaryOutline} from "components/Button"
-import {ReactComponent as IconBars} from "icons/calendar.svg"
-import {ReactComponent as IconTimes} from "icons/calendar.svg"
+import theme from "../utils/theme"
+import Link from "../components/link"
+import {ButtonPrimaryOutline} from "../components/button"
+import {ReactComponent as IconBars} from "../icons/calendar.svg"
+import {ReactComponent as IconTimes} from "../icons/calendar.svg"
 
 const Wrapper = styled("nav")`
   position: relative;

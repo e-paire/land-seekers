@@ -1,12 +1,13 @@
-import {Box, Flex} from "grid-styled"
+import React from "react"
 import get from "lodash/get"
 import Helmet from "react-helmet"
-import React from "react"
+import {Box, Flex} from "grid-styled"
 
 import Content from "../components/content"
+import Link from "../components/link"
 import Cover from "../components/cover"
 
-class NotFoundPage extends React.Component {
+class Authors extends React.Component {
   componentDidMount() {
     const {updatePageData, data} = this.props
     const title = get(data, "page.frontmatter.title")
@@ -19,13 +20,14 @@ class NotFoundPage extends React.Component {
   render() {
     const {
       defaultCover,
-      data: {site, page},
+      data: {site, page, authors},
     } = this.props
     const siteTitle = get(site, "siteMetadata.title")
     const title = get(page, "frontmatter.title", siteTitle)
     const metaTitle = get(page, "frontmatter.metaTitle", title)
     const metaDescription = get(page, "frontmatter.metaDescription")
     const cover = get(page, "frontmatter.cover.childImageSharp", defaultCover)
+    const authorsEdges = get(authors, "edges", [])
 
     return (
       <Box>
@@ -33,10 +35,26 @@ class NotFoundPage extends React.Component {
           <title>{metaTitle}</title>
           <meta name="description" content={metaDescription} />
         </Helmet>
-        <Cover image={cover} size="100vh" title="Perdu ?" />
+        <Cover image={cover} size="100vh" title="Auteurs" />
         <Flex mt={3} alignItems="center">
           <Content>
             <Box mb={2} dangerouslySetInnerHTML={{__html: page.html}} />
+            <ul>
+              {authorsEdges.map(
+                ({
+                  node: {
+                    fields: {slug},
+                    frontmatter: {title},
+                  },
+                }) => {
+                  return (
+                    <li key={slug}>
+                      <Link to={slug}>{title}</Link>
+                    </li>
+                  )
+                }
+              )}
+            </ul>
           </Content>
         </Flex>
       </Box>
@@ -44,16 +62,16 @@ class NotFoundPage extends React.Component {
   }
 }
 
-export default NotFoundPage
+export default Authors
 
 export const pageQuery = graphql`
-  query NotFoundQuery {
+  query AuthorsQuery {
     site {
       siteMetadata {
         title
       }
     }
-    page: markdownRemark(fileAbsolutePath: {regex: "/404/"}) {
+    page: markdownRemark(fileAbsolutePath: {regex: "/auteurs/"}) {
       html
       frontmatter {
         title
@@ -64,6 +82,22 @@ export const pageQuery = graphql`
             sizes(maxWidth: 1240) {
               ...GatsbyImageSharpSizes
             }
+          }
+        }
+      }
+    }
+    authors: allMarkdownRemark(
+      filter: {fields: {sourceName: {eq: "authors"}}}
+      sort: {fields: [frontmatter___name], order: ASC}
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            name
+            title
           }
         }
       }

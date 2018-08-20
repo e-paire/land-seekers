@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import {fontSize, space} from "styled-system"
 
-import theme from "utils/theme"
+import theme from "../utils/theme"
 
 const Button = styled.button.attrs({px: 2, py: 1, fontSize: 1})`
   border-radius: 100px;
@@ -37,12 +37,12 @@ export const ButtonOutline = styled(Button)`
 
 export const ButtonPrimaryOutline = styled(ButtonOutline)`
   background: ${theme.colors.white};
-  color: ${theme.colors.blue};
+  color: ${theme.colors.primary};
   transition: 0.3s all ease-in-out;
 
   &:hover {
     transition: 0.3s all ease-in-out;
-    background: ${theme.colors.blue};
+    background: ${theme.colors.primary};
     color: ${theme.colors.white};
   }
 `

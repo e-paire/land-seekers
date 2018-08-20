@@ -1,17 +1,12 @@
 const _ = require("lodash")
-const Promise = require("bluebird")
-const path = require("path")
 const {createFilePath} = require("gatsby-source-filesystem")
-const {fmImagesToRelative} = require("gatsby-remark-relative-images")
+const path = require("path")
+const Promise = require("bluebird")
 
-const blogPostTemplate = path.resolve("./src/templates/post.js")
-const tagTemplate = path.resolve("./src/templates/tag.js")
-const tagsTemplate = path.resolve("./src/templates/tags.js")
 const authorTemplate = path.resolve("./src/templates/author.js")
-const slugPrefixes = {
-  posts: "/blog",
-  authors: "/auteur",
-}
+const blogPostTemplate = path.resolve("./src/templates/post.js")
+const tagsTemplate = path.resolve("./src/templates/tags.js")
+const tagTemplate = path.resolve("./src/templates/tag.js")
 
 exports.createPages = ({graphql, boundActionCreators}) => {
   const {createPage} = boundActionCreators
@@ -21,24 +16,36 @@ exports.createPages = ({graphql, boundActionCreators}) => {
         `
           {
             posts: allMarkdownRemark(
-              filter: {fields: {source: {eq: "posts"}}}
+              filter: {fields: {sourceName: {eq: "posts"}}}
               sort: {fields: [frontmatter___date], order: DESC}
               limit: 1000
             ) {
               edges {
                 node {
+                  timeToRead
                   fields {
                     slug
                   }
                   frontmatter {
                     tags
                     title
+                    cover {
+                      childImageSharp {
+                        sizes(maxWidth: 300) {
+                          base64
+                          aspectRatio
+                          src
+                          srcSet
+                          sizes
+                        }
+                      }
+                    }
                   }
                 }
               }
             }
             authors: allMarkdownRemark(
-              filter: {fields: {source: {eq: "authors"}}}
+              filter: {fields: {sourceName: {eq: "authors"}}}
               sort: {fields: [frontmatter___name], order: ASC}
             ) {
               edges {
@@ -55,6 +62,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
           }
         `
       ).then(result => {
+        console.log(result)
         if (result.errors) {
           reject(result.errors)
         }
@@ -70,7 +78,6 @@ exports.createPages = ({graphql, boundActionCreators}) => {
 
           createPage({
             path: post.node.fields.slug,
-            layout: "single",
             component: blogPostTemplate,
             context: {
               slug: post.node.fields.slug,
@@ -118,55 +125,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
             },
           })
         })
-
-        // createPage({
-        //   path: `/authors/`,
-        //   component: authorsTemplate,
-        //   context: {
-        //     authors,
-        //   },
-        // })
-
-        // createPage({
-        //   path: `/contact`,
-        //   component: contactTemplate,
-        // })
-        //
-        // createPage({
-        //   path: `/merci`,
-        //   component: contactAfterTemplate,
-        // })
       })
     )
   })
-}
-
-exports.onCreateNode = ({node, boundActionCreators, getNode}) => {
-  fmImagesToRelative(node)
-
-  const {createNodeField} = boundActionCreators
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const source = getNode(node.parent).sourceInstanceName
-    const slugPrefix = slugPrefixes[source]
-    let slug
-
-    if (_.get(node, "frontmatter.slug")) {
-      slug = `/${_.kebabCase(node.frontmatter.slug)}`
-    } else {
-      slug = createFilePath({node, getNode})
-    }
-
-    createNodeField({
-      name: "source",
-      node,
-      value: source,
-    })
-
-    createNodeField({
-      name: `slug`,
-      node,
-      value: `${slugPrefix}${slug}`,
-    })
-  }
 }

@@ -1,21 +1,22 @@
 import React from "react"
+
 import throttle from "lodash/throttle"
 import styled, {css} from "styled-components"
 import {prop, ifProp, switchProp} from "styled-tools"
 import {Flex, Box} from "grid-styled"
 import ScrollProgress from "scrollprogress"
 
-import Text from "components/Text"
-import theme from "utils/theme"
-import Link from "components/Link"
-import Nav from "components/Nav"
+import Text from "../components/text"
+import theme from "../utils/theme"
+import Link from "../components/link"
+import Nav from "../components/nav"
 
-import {ReactComponent as IconBars} from "icons/bars.svg"
-import {ReactComponent as IconTimes} from "icons/times.svg"
+import {ReactComponent as IconBars} from "../icons/bars.svg"
+import {ReactComponent as IconTimes} from "../icons/times.svg"
 
 const HEIGTH_CONDENSED = 50
 const HEIGTH_UNCONDENSED = 100
-const BORDER_UNCONDENSED = 20
+const BORDER_UNCONDENSED = 0
 const BORDER_CONDENSED = 3
 
 const Wrapper = styled(Flex)`
@@ -24,37 +25,44 @@ const Wrapper = styled(Flex)`
 
 const Menu = styled(Flex)`
   position: fixed;
-  background: ${theme.colors.gray};
-  overflow: hidden;
-  left: 0;
-  right: 0;
-  transition: all 0.5s;
 
   ${ifProp(
     {condensed: true},
     css`
       top: ${HEIGTH_CONDENSED}px;
-    `,
-    css`
-      top: ${HEIGTH_UNCONDENSED}px;
-    `
-  )};
+      left: 0;
+      right: 0;
+      background: ${theme.colors.gray};
+      overflow: hidden;
 
-  ${ifProp(
-    {open: true},
-    css`
-      height: 100%;
+      ${ifProp(
+        {open: true},
+        css`
+          height: 100%;
+        `,
+        css`
+          height: 0;
+        `
+      )};
     `,
     css`
-      height: 0;
+      top: 0;
+      left: 100px;
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      li {
+        display: block;
+      }
     `
   )};
 `
 
-const Logo = styled(Link)`
+const Logo = styled(Flex)`
   position: absolute;
   transition: all 0.5s;
-  color: black;
 
   ${ifProp(
     {condensed: true},
@@ -69,6 +77,11 @@ const Logo = styled(Link)`
       top: 100%;
       transform: translate(-50%, -50%);
       font-size: 40px;
+      text-shadow: 1px 0px 0px ${theme.colors.text};
+
+      ${Link} {
+        color: white;
+      }
     `
   )};
 }
@@ -97,18 +110,20 @@ const CustomBar = styled(Flex)`
   transition: all 0.5s;
   flex-grow: 1;
 
-  border: 0 solid ${theme.colors.blue};
+  border: 0 solid ${theme.colors.primary};
   z-index: 1;
 
   ${ifProp(
     {condensed: true},
     css`
+      color: ${theme.colors.text};
       background: white;
       height: ${HEIGTH_CONDENSED}px;
       border-bottom-width: ${BORDER_CONDENSED}px;
     `,
     css`
-      background: white;
+      color: white;
+      background: transparent;
       height: ${HEIGTH_UNCONDENSED}px;
       border-bottom-width: ${BORDER_UNCONDENSED}px;
     `
@@ -120,7 +135,7 @@ const ToggleNav = styled(Flex)`
 `
 
 const Progress = styled(Flex)`
-  background-color: ${theme.colors.blue};
+  background-color: ${theme.colors.primary};
   height: 5px;
   position: fixed;
   left: 0;
@@ -171,8 +186,9 @@ class CollapsibleAppBar extends React.PureComponent {
       return
     }
 
-    const condensed =
-      this.lastScroll !== null ? lastScroll < this.lastScroll : null
+    const condensed = this.lastScroll !== null ? lastScroll < 100 : null
+    // const condensed =
+    //   this.lastScroll !== null ? lastScroll < this.lastScroll : null
 
     if (condensed !== this.state.condensed) {
       this.setState((prevState, props) => ({
@@ -201,10 +217,12 @@ class CollapsibleAppBar extends React.PureComponent {
           <ToggleNav onClick={this.handleToggle} ml={3}>
             {open ? <IconTimes width="1em" /> : <IconBars width="1em" />}
           </ToggleNav>
-          <Logo to="/" condensed={!condensed}>
-            <Text fontFamily="Beyno" mt="5px">
-              Land seekers
-            </Text>
+          <Logo condensed={!condensed}>
+            <Link to="/">
+              <Text fontFamily="Beyno" mt="5px">
+                Land seekers
+              </Text>
+            </Link>
           </Logo>
           {title && (
             <Title condensed={!condensed}>
@@ -213,7 +231,21 @@ class CollapsibleAppBar extends React.PureComponent {
             </Title>
           )}
           <Menu open={open} condensed={!condensed}>
-            sfsdf
+            <Flex is="ul">
+              <Flex is="li" p={2}>
+                Pays
+              </Flex>
+              <Flex is="li" p={2}>
+                <Link to="/auteurs" color="white">
+                  Auteurs
+                </Link>
+              </Flex>
+              <Flex is="li" p={2}>
+                <Link to="/contact" color="white">
+                  Contact
+                </Link>
+              </Flex>
+            </Flex>
           </Menu>
           {timeToRead && (
             <Progress progress={progress} condensed={!condensed} />

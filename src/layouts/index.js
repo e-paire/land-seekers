@@ -4,13 +4,13 @@ import {Flex} from "grid-styled"
 import Helmet from "react-helmet"
 import {prop} from "styled-tools"
 
-import theme from "utils/theme"
-import Nav from "components/Nav"
-import Link from "components/Link"
-import Text from "components/Text"
-import Bar from "components/collapsible-bar"
+import theme from "../utils/theme"
+import Nav from "../components/nav"
+import Link from "../components/link"
+import Text from "../components/text"
+import Bar from "../components/collapsible-bar"
 
-import beynoTTF from "fonts/beyno.ttf"
+import beynoTTF from "../fonts/beyno.ttf"
 import {ReactComponent as Logo} from "./logo.svg"
 
 injectGlobal`
@@ -35,7 +35,7 @@ body {
 }
 
 body a {
-  border-bottom: 1px solid ${prop(theme.colors.blue)};
+  border-bottom: 1px solid ${prop(theme.colors.primary)};
   box-shadow: inset 0 -2px 0px 0px #e0d6eb;
 }
 
@@ -69,7 +69,10 @@ class Template extends React.Component {
 
   render() {
     const {pageData} = this.state
-    const {children} = this.props
+    const {
+      children,
+      data: {defaultCover},
+    } = this.props
     return (
       <React.Fragment>
         <Helmet>
@@ -81,7 +84,11 @@ class Template extends React.Component {
         <ThemeProvider theme={theme}>
           <React.Fragment>
             <Bar {...pageData} />
-            {children({...this.props, updatePageData: this.updatePageData})}
+            {children({
+              ...this.props,
+              defaultCover,
+              updatePageData: this.updatePageData,
+            })}
           </React.Fragment>
         </ThemeProvider>
       </React.Fragment>
@@ -91,12 +98,12 @@ class Template extends React.Component {
 
 export default Template
 
-// export const pageQuery = graphql`
-//   query IndexLayoutQuery($slug: String!) {
-//     markdownRemark(fields: {slug: {eq: $slug}}) {
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `
+export const IndexLayoutQuery = graphql`
+  query IndexLayout {
+    defaultCover: imageSharp(id: {regex: "/tenerife-sunset/"}) {
+      sizes(maxWidth: 1240) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`

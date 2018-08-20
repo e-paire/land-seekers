@@ -6,12 +6,15 @@ const italic = props => (props.italic ? {fontStyle: "italic"} : null)
 const bold = props => (props.bold ? {fontWeight: 800} : null)
 const light = props => (props.light ? {fontWeight: 200} : null)
 const align = props => (props.align ? {textAlign: props.align} : null)
+const absolute = props => (props.absolute ? {position: "absolute"} : null)
+const display = props =>
+  props.display ? {display: "block"} : {display: "inline-flex"}
 
 const Text = styled(Box)`
-  display: inline-flex;
   margin: 0;
   padding: 0;
   fill: currentColor;
+  ${display};
   ${align};
   ${fontFamily};
   ${fontSize};

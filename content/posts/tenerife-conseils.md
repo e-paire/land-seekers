@@ -1,14 +1,23 @@
 ---
+slug: super-conseils-tenerife
+metaTitle: Conseils et bon plan à Ténérife
+metaDescription: Conseils et bon plan à Ténérife
 title: Conseils et bon plan à Ténérife
 date: 2017-06-09T08:58:29.000Z
 author: noushka
+cover: ../images/tenerife-sunset.jpg
 tags:
-  - Tenerife
-  - Espagne
-  - Europe
+    - Tenerife
+    - Espagne
+    - Europe
 ---
 
 La belle île de Ténérife ! Souvent considéré comme une destination balnéaire, l'île regorge de beautés naturelles. Un vrai paradis pour les amoureux de la nature. On vous laisse le découvrir par vous-même grâce au photos.
+
+```grid|2|Super photos
+![](../images/tenerife-sunset.jpg)
+![](../images/tenerife-sunset.jpg)
+```
 
 S'y rendre
 

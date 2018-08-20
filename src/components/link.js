@@ -1,11 +1,12 @@
 import Link from "gatsby-link"
 import styled from "styled-components"
+import {prop} from "styled-tools"
 
-import Text from "components/Text"
-import theme from "utils/theme"
+import Text from "../components/text"
+import theme from "../utils/theme"
 
 const CustomLink = styled(Text.withComponent(Link))`
-  color: ${theme.colors.blue};
+  color: ${prop("color", theme.colors.primary)};
   text-decoration: none;
   box-shadow: none;
 

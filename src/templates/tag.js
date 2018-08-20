@@ -1,42 +1,67 @@
+import {Box, Flex} from "grid-styled"
+import get from "lodash/get"
+import Helmet from "react-helmet"
 import React from "react"
 
-import Link from "components/Link"
+import Content from "../components/content"
+import Cover from "../components/cover"
+import Link from "../components/link"
 
-const Tag = ({pathContext, data}) => {
-  const {tag} = pathContext
-  const {edges, totalCount} = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+class Tag extends React.Component {
+  componentDidMount() {
+    const {
+      updatePageData,
+      data: {posts},
+    } = this.props
+    const title = this.getTitle(tag, posts.totalCount)
 
-  return (
-    <div>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({node}) => {
-          const {slug} = node.fields
-          const {title} = node.frontmatter
-          return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
-          )
-        })}
-      </ul>
-      {/*
-              This links to a page that does not yet exist.
-              We'll come back to it!
-            */}
-      <Link to="/tags">All tags</Link>
-    </div>
-  )
+    updatePageData({
+      title,
+    })
+  }
+
+  getTitle(tag, count) {
+    return `${count} article${count === 1 ? "" : "s"} avec le tag "${tag}"`
+  }
+
+  render() {
+    const {
+      defaultCover,
+      data: {site, page, posts},
+      pathContext: {tag},
+    } = this.props
+    const postsEdges = get(posts, "edges", [])
+    const title = this.getTitle(tag, posts.totalCount)
+
+    return (
+      <Box>
+        <Helmet>
+          <title>{title}</title>
+          <meta name="description" content={title} />
+        </Helmet>
+        <Cover image={defaultCover} size="100vh" title={title} />
+        <Flex mt={3} alignItems="center">
+          <Content>
+            <ul>
+              {postsEdges.map(({node: post}) => (
+                <li key={post.fields.slug}>
+                  <Link to={post.fields.slug}>{post.frontmattertitle}</Link>
+                </li>
+              ))}
+            </ul>
+            <Link to="/tags">All tags</Link>
+          </Content>
+        </Flex>
+      </Box>
+    )
+  }
 }
 
 export default Tag
 
 export const pageQuery = graphql`
   query TagPage($tag: String) {
-    allMarkdownRemark(
+    posts: allMarkdownRemark(
       limit: 2000
       sort: {fields: [frontmatter___date], order: DESC}
       filter: {frontmatter: {tags: {in: [$tag]}}}

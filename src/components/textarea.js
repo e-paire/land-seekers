@@ -1,4 +1,4 @@
-import Input from "components/Input"
+import Input from "../components/input"
 
 const Textarea = Input.withComponent("textarea")
 

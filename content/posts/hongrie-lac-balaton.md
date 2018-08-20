@@ -2,10 +2,9 @@
 title: A la découverte du lac Balaton
 date: 2016-09-23T01:00:00+02:00
 author: noushka
-cover: 'https://www.ced.photo/assets/from-sky/tenerife-natural-pool.jpg'
 tags:
-  - Hongrie
-  - Europe
+    - Hongrie
+    - Europe
 ---
 
 A la découverte du Lac Balaton

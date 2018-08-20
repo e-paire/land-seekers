@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node/10.7.0/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add unist-util-visit
+
+PATH: 
+  /Users/xuopled/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/xuopled/.rbenv/shims:/Users/xuopled/.nexustools:/Users/xuopled/.nexustools
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/xuopled/Development/perso/land-seekers/plugins/gatsby-remark-picture/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

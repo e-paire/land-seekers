@@ -4,7 +4,8 @@ backend:
   branch: master
 
 display_url: https://landseekers.blog
-media_folder: content/images/
+media_folder: static/images/
+public_folder: content/images/
 
 collections:
   - name: "posts"
@@ -18,6 +19,9 @@ collections:
     fields:
       - name: "title"
         label: "Title"
+        widget: "string"
+      - name: "slug"
+        label: "Slug"
         widget: "string"
       - name: "date"
         label: "Publish Date"
@@ -41,6 +45,12 @@ collections:
         widget: "list"
         default: []
         required: false
+      - name: "metaTitle"
+        label: "Meta title"
+        widget: "string"
+      - name: "metaDescription"
+        label: "Meta description"
+        widget: "string"
   - name: "authors"
     label: "Authors"
     folder: "content/authors/"

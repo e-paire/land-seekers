@@ -3,48 +3,61 @@ module.exports = {
     title: "Land seekers",
     author: "Cédric & Noushka",
     description: "Land seekers",
-    siteUrl: "https://rbf.netlify.com",
+    siteUrl: "https://landseekers.blog",
   },
   pathPrefix: "/landseekers",
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content/posts`,
         name: "posts",
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content/authors`,
         name: "authors",
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
+        name: "images",
         path: `${__dirname}/content/images/`,
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: `${__dirname}/content/pages/`,
+      },
+    },
+    "gatsby-remark-normalize-paths",
+    {
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-responsive-iframe",
+          "gatsby-remark-autolink-headers",
+          "gatsby-remark-attr",
           {
-            resolve: `gatsby-remark-relative-images`,
-          },
-          {
-            resolve: `gatsby-remark-images`,
+            resolve: "gatsby-remark-images-grid",
             options: {
-              maxWidth: 590,
+              gridGap: "20px",
+              margin: "10px auto",
             },
           },
+          "gatsby-remark-normalize-paths",
+          "gatsby-remark-unwrap-images",
           {
-            resolve: `gatsby-remark-responsive-iframe`,
+            resolve: "gatsby-remark-picture2",
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
+              withSource: true,
+              withSourceWebp: true,
             },
           },
           {
@@ -54,33 +67,22 @@ module.exports = {
               rel: "nofollow",
             },
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        // Setting a color is optional.
-        color: `tomato`,
-        // Disable the loading spinner.
-        showSpinner: false,
-      },
-    },
+    "gatsby-remark-source-name",
+    "gatsby-plugin-slug",
+    "gatsby-plugin-catch-links",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-svgr",
 
     {
-      resolve: "gatsby-plugin-svgr",
+      resolve: "gatsby-plugin-nprogress",
       options: {
-        // icon: true,
-        // viewBox: false,
-        // see https://github.com/smooth-code/svgr for a list of all options
+        color: "#47c9e5",
+        showSpinner: false,
       },
     },
     {
@@ -90,38 +92,27 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: [`Montserrat:700`, `Raleway`],
+        fonts: ["Montserrat:700", "Raleway"],
       },
     },
-    `gatsby-plugin-remove-trailing-slashes`,
-    `gatsby-plugin-styled-components`,
+    "gatsby-plugin-remove-trailing-slashes",
+    "gatsby-plugin-styled-components",
     ...(process.env.NODE_ENV === "production"
       ? [
           {
-            resolve: `gatsby-plugin-google-analytics`,
+            resolve: "gatsby-plugin-google-analytics",
             options: {
               trackingId: process.env.GATSBY_GA_TRACKING_ID,
             },
           },
-          {
-            resolve: `gatsby-plugin-google-tagmanager`,
-            options: {
-              id: process.env.GATSBY_GTM_ID,
-
-              // Include GTM in development.
-              // Defaults to false meaning GTM will only be loaded in production.
-              includeInDevelopment: false,
-
-              // Specify optional GTM environment details.
-              gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-              gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-            },
-          },
-          `gatsby-plugin-netlify-cache`,
-          `gatsby-plugin-netlify-cms`,
-          `gatsby-plugin-netlify`,
+          "gatsby-plugin-feed",
+          "gatsby-plugin-sitemap",
+          "gatsby-plugin-offline",
+          "gatsby-plugin-netlify-cache",
+          "gatsby-plugin-netlify-cms",
+          "gatsby-plugin-netlify",
         ]
       : []),
   ],

@@ -1,5 +1,5 @@
 ---
-title: Le parc national du Teide
+title: Le parc national du Teide à Ténérife
 date: 2017-06-02T08:57:16.000Z
 author: noushka
 tags:
@@ -7,46 +7,38 @@ tags:
   - Espagne
   - Europe
 ---
+Le parc national du Teide (en espagnol : Parc nacional del Teide) à Ténérife est le plus grand et le plus ancien des parcs des Canaries. Il abrite le pic du volcan du Teide, qui n'est autre que le point le plus haut d'Espagne : 3718 mètres ! La végétation est casi inexistante, vous verrez davantage des rochers aux couleurs étonnants : rouge, noir, blanc, gris... Certains disent même que ça ressemble au Grand Canyon. Depuis 2007, le parc du Teide est inscrit au patrimoine mondial de l'UNESCO, au titre de site naturel.
 
-Le parc national du Teide
+## Quoi faire dans le parc :
 
-Le parc national du Teide (en espagnol : Parc nacional del Teide) à Ténérife est le plus et le plus ancien des parcs des Canaries. Il abrite le pic du volcan du Teide, qui n'est autre que le point le plus haut d'Espagne : 3718 mètres ! La végétation est casi inexistante, vous verrez davantage des rochers aux couleurs étonnants : rouge, noir, blanc, gris... Certains disent même que ça ressemble au Grand Canyon. Depuis 2007, le parc du Teide est inscrit au patrimoine mondial de l'UNESCO, au titre de site naturel.
+5 lieux caractérisent le parc national. Il y a des randonnées et des points de vue dans chacun de ces lieux :
 
-La particularité du Teide c'est qu'on le voit partout de l'île. C'est réellement quelque chose qui définit Ténérife.
+* Pico del Teide
+* Pico Viejo
+* La cathedral
+* Montana Blanca
+* Montana Guajara
 
-Où aller :
+Le Pico del Teide est visible partout sur l'île, sauf lorsqu'il fait très nuageux. Le cratère et ses environs sont accessibles en téléphérique de 9 à 16h tous les jours. Il est également possible de passer une nuit dans le parc et observer le lever du soleil depuis le pic à 7h du matin ! C'est cette aventure que nous partageons dans cette article.
 
-5 lieux caractérisent le parc national :
+## Voir le lever du soleil depuis le sommet du Teide :
 
-\- Pico del Teide
+1. Accéder au refuge
 
-\- Pico Viejo
+Le téléphérique ouvre à 9h du matin, après le lever du soleil. Pour profiter du lever du soleil, il faut passer une nuit dans un refuge se situant à 2h de marche du pic. Il existe deux possibilités pour se rendre du refuge :
 
-\- La cathedral
+* Y aller à pied : 4h et 1368m d'ascension 
+* Monter en téléphérique : 1h de marche et 20€ de téléphérique par personne
 
-\- Montana Blanca
+Si vous choissisez la première option, il faut partir du parking de Montana Blanca situé à 2350 mètres d'altitude. Il s'agit du sentier numéro 7. Courage, il y a plus que 1368 mètres d'ascension. Pour emprunter ce sentier, vous aurez besoin d'une autorisation. Pour cela, il suffit d'écrire à teide@oapn.mma.es. Le parking se situe au bord de la route, donc impossible de le louper. Après un peu plus de 4h de marche, vous arriverez au **refuge d'Altavista** à 3260 mètres d'altitude.
 
-\- Montana Guajara
+La deuxième option est plus chère mais moins fatiguante : monter en téléphérique. Je vous conseille de réserver des billets sur internet, comme ça vous êtes sûr de monter : https://www.volcanoteide.com/fr/volcano_teide/telepherique_du_teide/telepherique_du_teide#headerHorarios. Un peu avant 16h vous pouvez monter avec le téléphérique à 3555 mètres d'altitude. Une fois la-haut, vous commencez à voir le sommet de très très prêt. Mais l'aventure ne fait que commencer. Il faut environ une heure de marche pour atteindre le refuge. Commencez par emprunter le sentier numéro 11 jusqu'au croisement puis continuer sur le sentier 7. Pas d'inquiétude, tout est parfaitement indiqué. Sachez que c'est également ce chemin que vous reprendrez le lendemain pour atteindre le sommet. En optant pour le package téléphérique/refuge, vous n'avez pas besoin de permis pour accéder au parc.
 
-Faute de temps et de condition physique suite à une douleur au genou, nous avons uniquement passé du temps au sommet du Teide.
-
-Que faire :
-
-Voir le lever du soleil depuis le sommet du Teide :
-
-\- Accéder au refuge
-
-Pour cela, la première option est de partir depuis le parking de Montana Blanca situé à 2350 mètres d'altitude. Il s'agit du sentier numéro 7. Courage, plus que 1368 mètres d'ascension. Pour emprunter ce sentier, vous aurez besoin d'une autorisation. Pour cela, il suffit d'écrire à teide@oapn.mma.es. Le parking se situe au bord de la route, donc impossible de le louper.
-
-Après un peu plus de 4h de marche, vous arriverez au refuge d'Altavista à 3260 mètres d'altitude.
-
-La deuxième option est plus chère mais moins fatiguante : monter en téléphérique. Je vous conseille de réserver des billets sur internet, comme ça vous êtes sûr de monter : https://www.volcanoteide.com/fr/volcano_teide/telepherique_du_teide/telepherique_du_teide#headerHorarios. Un peu avant 16h vous pouvez monter avec le téléphérique à 3555 mètres d'altitude. Une fois la-haut, vous commencez à voir le sommet de très très prêt. Mais l'aventure ne fait que commencer. Il faut environ une heure de marche pour atteindre le refuge. Commencez par emprunter le sentier numéro 11 jusqu'au croisement où il faudra prendre le sentier 7. Pas d'inquiétude, tout est parfaitement indiqué. Sachez que c'est également ce chemin que vous reprendrez le lendemain pour atteindre le sommet. En optant pour le package téléphérique/refuge, vous n'avez pas besoin de permis pour accéder au parc.
-
-\-La nuit au refuge
+2. La nuit au refuge
 
 Vous voilà maintenant au refuge ! Maintenant, ça sera surprises après surprises jusqu'au lever du soleil le lendemain. Lorsque le soleil se couche, la fameuse ombre du volcan vient s'installer pile en face du refuge, une vraie carte postale ! Il fait vite froid une fois que le soleil est couché donc nous nous sommes réfugié à l'intérieur et mangé un petit bout dans la cuisine avant d'aller se reposer.
 
-\- L'ascension de nuit
+3. L'ascension de nuit
 
 Réveil à 4h ... oui ça pique ! on s'habille rapidement, on mange un peu puis on part pour 2h de marche jusqu'au sommet, tout ça de nuit ! Il faut absolument avoir une frontale avec vous, sinon vous n'y verrez rien, je rappelle que le soleil n'est pas encore levé.
 
@@ -54,27 +46,27 @@ Le chemin à emprunter est simple parce qu'il n'y en a qu'un. De plus, le garde 
 
 Au bout de 1h30 de marche (à petite allure), nous étions de nouveau au téléphérique. C'était la partie la plus longue et avec le plus d'ascension. Il ne reste qu'une petite heure pour atteindre le sommet et 150 mètres d'ascension. Il y a de plus en plus de rochers sur la route. Cependant, même la nuit on trouve son chemin. N'hésitez pas à tourner la tête de temps à autre, si jamais vous êtes en queue de peleton vous verrez les petites lumières des frontales au loin.
 
-\- le lever du soleil
+4. le lever du soleil
 
 Au fur et à mesure qu'on approche du sommet, une odeur de souffre se fait de plus en plus présente, signe qu'on est tout prêt !
 
 A la fin, il faut contourner de gros rochers puis .... nous voilà au sommet ! Nous nous sommes confortablement installé sur les rochers, appareil photo en main, Gopro prête à prendre un time lapse. Il n'y avait plus qu'a attendre que les premiers rayons de soleil dépassent des nuages.
 
-\- la descente
+5. la descente
 
 Le plus simple est de descendre en téléphérique (vous pouvez acheter les billets sur place), soit de redescendre par le même chemin qu'a l'aller, à savoir le sentier de la Montana Blanca. Le téléphérique ouvre vers 9h le matin. Préparez-vous à attendre un peu devant la téléphérique ou rester plus longtemps au sommet et observer les paysages.
 
-Observer les points de vue depuis le téléphérique
+## Observer les points de vue depuis le téléphérique
 
 Il est également possible d'accéder au sommet sans passer la nuit dans le refuge.
 
-Vous pouvez monter téléphérique et aller directement au sommet de jour pendant les horaires d'ouverture du parc. Par contre, vous ne verrez pas le lever ni le coucher du soleil. Vous serez le roi du monde pendant quelques instants dominant depuis le sommet de l'Espagne !
+Vous pouvez monter en téléphérique et aller directement au sommet de jour pendant les horaires d'ouverture du parc. Par contre, vous ne verrez pas le lever ni le coucher du soleil mais vous dominerez l'île depuis le sommet de l'Espagne !
 
-Le téléphérique vous amène tout prêt du sommet mais pas tout le monde grimpe jusqu'en haut. en effet il faut de nouvelle fois demander une permission spéciale (mais gratuite) plusieurs mois à l'avance. C'est là que ça se passe : https://www.reservasparquesnacionales.es/real/ParquesNac/usu/html/inicio-reserva-oapn.aspx?ii=7FRA&cen=2&act=+1. Le nombre de personne est limité au sommet, d'où l'autorisation.
+Le téléphérique vous amène tout prêt du sommet mais pas tout le monde grimpe jusqu'en haut. En effet il faut de nouvelle fois demander une permission spéciale (mais gratuite) plusieurs mois à l'avance. C'est là que ça se passe : https://www.reservasparquesnacionales.es/real/ParquesNac/usu/html/inicio-reserva-oapn.aspx?ii=7FRA&cen=2&act=+1. Le nombre de personne est limité au sommet, d'où l'autorisation.
 
 Les personnes sans autorisation peuvent tout de même se balader aux alentours du téléphérique. Vous trouverez par ci et là des points de vue à couper le souffle sur le parc, la mer, les autres îles, les nuages ... et j'en passe !
 
-Se promener en voiture
+## Se promener en voiture dans le parc
 
 Le parc est grand et les paysages varient beaucoup. Si le temps vous manque, je vous conseille de vous promener en voiture. Nous avons emprunté la route qui part du téléphérique jusqu'à Los Gigantes. Nous avons pris beaucoup de plaisir à emprunter cette route, on voit des forêts, des rochers de couleurs différentes, rien ne se ressemble.
 
