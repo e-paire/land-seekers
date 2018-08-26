@@ -1,7 +1,8 @@
 ---
-title: Noush
-name: noushka
+name: Noushka
+slug: "auteur/noushka"
 ---
+
 Bienvenue sur notre blog,
 
 J'ai beaucoup hésité avant de commencer ce blog parce que il existe déjà tellement de blog de voyage. Alors pourquoi je me suis quand même lancé ?

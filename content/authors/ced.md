@@ -1,6 +1,6 @@
 ---
-title: Ced
-name: cedric
+name: Cedric
+slug: "auteur/cedric"
 ---
 
 Coucou, moi c'est cédric

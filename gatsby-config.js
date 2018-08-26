@@ -5,7 +5,6 @@ module.exports = {
     description: "Land seekers",
     siteUrl: "https://landseekers.blog",
   },
-  pathPrefix: "/landseekers",
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
@@ -35,14 +34,25 @@ module.exports = {
         path: `${__dirname}/content/pages/`,
       },
     },
-    "gatsby-remark-normalize-paths",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "countries",
+        path: `${__dirname}/content/countries/`,
+      },
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-responsive-iframe",
-          "gatsby-remark-autolink-headers",
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `100`,
+            },
+          },
           "gatsby-remark-attr",
           {
             resolve: "gatsby-remark-images-grid",
@@ -51,10 +61,15 @@ module.exports = {
               margin: "10px auto",
             },
           },
-          "gatsby-remark-normalize-paths",
+          {
+            resolve: "gatsby-remark-normalize-paths",
+            options: {
+              pathFields: ["cover"],
+            },
+          },
           "gatsby-remark-unwrap-images",
           {
-            resolve: "gatsby-remark-picture2",
+            resolve: "gatsby-remark-picture",
             options: {
               withSource: true,
               withSourceWebp: true,
@@ -77,18 +92,12 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-svgr",
-
+    "gatsby-plugin-eslint",
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
         color: "#47c9e5",
         showSpinner: false,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-root-import",
-      options: {
-        root: `${__dirname}/src`,
       },
     },
     {

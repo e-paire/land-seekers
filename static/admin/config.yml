@@ -30,20 +30,8 @@ collections:
         name: "author"
         widget: "relation"
         collection: "authors"
-        searchFields: ["name"]
-        valueField: "name"
-        required: false
-      - name: "cover"
-        label: "Cover"
-        widget: "image"
-        required: false
-      - name: "body"
-        label: "Body"
-        widget: "markdown"
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        default: []
+        searchFields: ["id"]
+        valueField: "id"
         required: false
       - name: "metaTitle"
         label: "Meta title"
@@ -51,6 +39,20 @@ collections:
       - name: "metaDescription"
         label: "Meta description"
         widget: "string"
+      - name: "cover"
+        label: "Cover"
+        widget: "image"
+        required: false
+      - label: "Country"
+        name: "country"
+        widget: "relation"
+        collection: "countries"
+        searchFields: ["name"]
+        valueField: "name"
+        required: false
+      - name: "body"
+        label: "Body"
+        widget: "markdown"
   - name: "authors"
     label: "Authors"
     folder: "content/authors/"
@@ -60,12 +62,31 @@ collections:
     editor:
       preview: false
     fields:
-      - name: "title"
-        label: "Title"
-        widget: "string"
       - name: "name"
         label: "Name"
         widget: "string"
+      - name: "cover"
+        label: "Cover"
+        widget: "image"
+        required: false
+      - name: "body"
+        label: "Body"
+        widget: "markdown"
+  - name: "countries"
+    label: "Countries"
+    folder: "content/countries/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - name: "name"
+        label: "Name"
+        widget: "string"
+      - name: "cover"
+        label: "Cover"
+        widget: "image"
+        required: false
       - name: "body"
         label: "Body"
         widget: "markdown"

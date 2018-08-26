@@ -2,8 +2,7 @@
 title: A la découverte de la Bosnie-Herzégovine
 date: 2016-09-10T00:00:00+02:00
 author: noushka
-tags:
-  - Bosnie
+country: Bosnie
 ---
 
 Durant l'été 2016, nous avons décidé de partir à le découverte de quelques pays d'Europe de l'Est, à savoir la Croatie, La Bosnie-Herzégovine ainsi que la Hongrie. Durant 15 jours, nous avons silloné ces 3 pays, tantôt en admirant les capitales tantôt en partant découvrir l'arrière pays.

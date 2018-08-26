@@ -2,10 +2,7 @@
 title: Conseil Autriche
 date: 2017-09-01T11:00:36+02:00
 author: noushka
-cover: ""
-tags:
-    - Autriche
-    - Europe
+country: Autriche
 ---
 
 En été 2017 nous voulions des vacances nature, se détendre et aller à la recherche des plus jolies paysages. C'est donc tout naturellement que notre choix c'est porté sur l'Autriche. En effet, s'il fallait définir ce pays, on pourrait dire : Alpes, routes alpine, lacs ... Tout ce qu'on aime. Pendant 15 jours nous avons silloné l'Autriche de long en large. Voici un résumé du trajet avec nos conseils et bon plans

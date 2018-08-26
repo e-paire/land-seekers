@@ -2,9 +2,7 @@
 title: le refuge de l'étang d'Araing
 date: 2016-12-31T10:26:50.111Z
 author: noushka
-tags:
-    - Randonnée
-    - France
+country: France
 ---
 
 Pour ce tout premier post sur les randonnées que nous avons fait, j'ai choisis de commencer par l'étang d'Araing. Pourquoi ? Je ne pense que tout m'a marqué ce jour-là, autant la randonnée qui a permis de s'y rendre et le lac en lui-même.

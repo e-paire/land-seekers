@@ -1,6 +1,6 @@
-import Link from "gatsby-link"
-import styled from "styled-components"
+import {Link} from "gatsby"
 import {prop} from "styled-tools"
+import styled from "styled-components"
 
 import Text from "../components/text"
 import theme from "../utils/theme"

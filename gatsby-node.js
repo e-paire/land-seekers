@@ -3,13 +3,14 @@ const {createFilePath} = require("gatsby-source-filesystem")
 const path = require("path")
 const Promise = require("bluebird")
 
+const authorsTemplate = path.resolve("./src/templates/authors.js")
 const authorTemplate = path.resolve("./src/templates/author.js")
-const blogPostTemplate = path.resolve("./src/templates/post.js")
-const tagsTemplate = path.resolve("./src/templates/tags.js")
-const tagTemplate = path.resolve("./src/templates/tag.js")
+const countriesTemplate = path.resolve("./src/templates/countries.js")
+const countryTemplate = path.resolve("./src/templates/country.js")
+const postTemplate = path.resolve("./src/templates/post.js")
 
-exports.createPages = ({graphql, boundActionCreators}) => {
-  const {createPage} = boundActionCreators
+exports.createPages = ({graphql, actions}) => {
+  const {createPage} = actions
   return new Promise((resolve, reject) => {
     resolve(
       graphql(
@@ -22,26 +23,17 @@ exports.createPages = ({graphql, boundActionCreators}) => {
             ) {
               edges {
                 node {
-                  timeToRead
                   fields {
                     slug
                   }
-                  frontmatter {
-                    tags
-                    title
-                    cover {
-                      childImageSharp {
-                        sizes(maxWidth: 300) {
-                          base64
-                          aspectRatio
-                          src
-                          srcSet
-                          sizes
-                        }
-                      }
-                    }
-                  }
                 }
+              }
+            }
+            authorsPage: markdownRemark(
+              fileAbsolutePath: {regex: "/authors.md/"}
+            ) {
+              fields {
+                slug
               }
             }
             authors: allMarkdownRemark(
@@ -53,8 +45,27 @@ exports.createPages = ({graphql, boundActionCreators}) => {
                   fields {
                     slug
                   }
+                }
+              }
+            }
+            countriesPage: markdownRemark(
+              fileAbsolutePath: {regex: "/countries.md/"}
+            ) {
+              fields {
+                slug
+              }
+            }
+            countries: allMarkdownRemark(
+              filter: {fields: {sourceName: {eq: "countries"}}}
+              sort: {fields: [frontmatter___title], order: ASC}
+            ) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
                   frontmatter {
-                    title
+                    name
                   }
                 }
               }
@@ -62,66 +73,64 @@ exports.createPages = ({graphql, boundActionCreators}) => {
           }
         `
       ).then(result => {
-        console.log(result)
         if (result.errors) {
           reject(result.errors)
         }
 
+        const {
+          authors,
+          authorsPage,
+          countries,
+          countriesPage,
+          posts,
+        } = result.data
+
         // Create blog posts pages.
-        const posts = result.data.posts.edges
-        const authors = result.data.authors.edges
-
-        _.each(posts, (post, index) => {
-          const previous =
-            index === posts.length - 1 ? null : posts[index + 1].node
-          const next = index === 0 ? null : posts[index - 1].node
+        _.each(posts.edges, ({node}, index) => {
+          const previousNode =
+            index === posts.length - 1 ? null : posts[index + 1]
+          const nextNode = index === 0 ? null : posts[index - 1]
 
           createPage({
-            path: post.node.fields.slug,
-            component: blogPostTemplate,
+            path: node.fields.slug,
+            component: postTemplate,
             context: {
-              slug: post.node.fields.slug,
-              previous,
-              next,
+              slug: node.fields.slug,
+              previousSlug: previousNode && previousNode.fields.slug,
+              nextSlug: nextNode && nextNode.fields.slug,
             },
           })
         })
 
-        let tags = []
-        _.each(posts, edge => {
-          if (_.get(edge, "node.frontmatter.tags")) {
-            tags = tags.concat(edge.node.frontmatter.tags)
-          }
-        })
-        // Eliminate duplicate tags
-        tags = _.uniq(tags)
-
-        // Make tag pages
-        tags.forEach(tag => {
-          createPage({
-            path: `/tag/${_.kebabCase(tag)}/`,
-            component: tagTemplate,
-            context: {
-              tag,
-            },
-          })
-        })
-
+        // Make Authors pages
         createPage({
-          path: `/tags/`,
-          component: tagsTemplate,
-          context: {
-            tags,
-          },
+          path: authorsPage.fields.slug,
+          component: authorsTemplate,
         })
 
-        authors.forEach(({node}) => {
-          const author = node.frontmatter.title
+        authors.edges.forEach(({node}) => {
           createPage({
-            path: `/auteur/${_.kebabCase(author)}/`,
+            path: node.fields.slug,
             component: authorTemplate,
             context: {
-              author,
+              slug: node.fields.slug,
+            },
+          })
+        })
+
+        // Make Countries pages
+        createPage({
+          path: countriesPage.fields.slug,
+          component: countriesTemplate,
+        })
+
+        countries.edges.forEach(({node}) => {
+          createPage({
+            path: node.fields.slug,
+            component: countryTemplate,
+            context: {
+              slug: node.fields.slug,
+              name: node.frontmatter.name,
             },
           })
         })

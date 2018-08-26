@@ -3,8 +3,7 @@ title: L'aventure du mont Bromo sans guide
 date: "2018-07-11"
 author: noushka
 cover: /content/images/lever_de_soleil_bromo_indonesie.jpg
-tags:
-    - Indonesie
+country: Indonésie
 ---
 
 Java, l'île principale d'Indonésie est riche en volcans. 500 volcans sont répartis sur l'archipel dont une centaine sont encore en activité. Le volcan du Bromo est considéré comme étant l'un des plus beaux au monde.

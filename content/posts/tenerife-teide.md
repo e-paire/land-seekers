@@ -2,22 +2,20 @@
 title: Le parc national du Teide à Ténérife
 date: 2017-06-02T08:57:16.000Z
 author: noushka
-tags:
-  - Tenerife
-  - Espagne
-  - Europe
+country: Espagne
 ---
+
 Le parc national du Teide (en espagnol : Parc nacional del Teide) à Ténérife est le plus grand et le plus ancien des parcs des Canaries. Il abrite le pic du volcan du Teide, qui n'est autre que le point le plus haut d'Espagne : 3718 mètres ! La végétation est casi inexistante, vous verrez davantage des rochers aux couleurs étonnants : rouge, noir, blanc, gris... Certains disent même que ça ressemble au Grand Canyon. Depuis 2007, le parc du Teide est inscrit au patrimoine mondial de l'UNESCO, au titre de site naturel.
 
 ## Quoi faire dans le parc :
 
 5 lieux caractérisent le parc national. Il y a des randonnées et des points de vue dans chacun de ces lieux :
 
-* Pico del Teide
-* Pico Viejo
-* La cathedral
-* Montana Blanca
-* Montana Guajara
+-   Pico del Teide
+-   Pico Viejo
+-   La cathedral
+-   Montana Blanca
+-   Montana Guajara
 
 Le Pico del Teide est visible partout sur l'île, sauf lorsqu'il fait très nuageux. Le cratère et ses environs sont accessibles en téléphérique de 9 à 16h tous les jours. Il est également possible de passer une nuit dans le parc et observer le lever du soleil depuis le pic à 7h du matin ! C'est cette aventure que nous partageons dans cette article.
 
@@ -27,8 +25,8 @@ Le Pico del Teide est visible partout sur l'île, sauf lorsqu'il fait très nuag
 
 Le téléphérique ouvre à 9h du matin, après le lever du soleil. Pour profiter du lever du soleil, il faut passer une nuit dans un refuge se situant à 2h de marche du pic. Il existe deux possibilités pour se rendre du refuge :
 
-* Y aller à pied : 4h et 1368m d'ascension 
-* Monter en téléphérique : 1h de marche et 20€ de téléphérique par personne
+-   Y aller à pied : 4h et 1368m d'ascension
+-   Monter en téléphérique : 1h de marche et 20€ de téléphérique par personne
 
 Si vous choissisez la première option, il faut partir du parking de Montana Blanca situé à 2350 mètres d'altitude. Il s'agit du sentier numéro 7. Courage, il y a plus que 1368 mètres d'ascension. Pour emprunter ce sentier, vous aurez besoin d'une autorisation. Pour cela, il suffit d'écrire à teide@oapn.mma.es. Le parking se situe au bord de la route, donc impossible de le louper. Après un peu plus de 4h de marche, vous arriverez au **refuge d'Altavista** à 3260 mètres d'altitude.
 

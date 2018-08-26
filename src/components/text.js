@@ -1,28 +1,24 @@
 import styled from "styled-components"
-import {color, fontFamily, fontSize, space} from "styled-system"
-import {Box} from "grid-styled"
+import {
+  textAlign,
+  fontFamily,
+  fontSize,
+  fontWeight,
+  fontStyle,
+  lineHeight,
+} from "styled-system"
 
-const italic = props => (props.italic ? {fontStyle: "italic"} : null)
-const bold = props => (props.bold ? {fontWeight: 800} : null)
-const light = props => (props.light ? {fontWeight: 200} : null)
-const align = props => (props.align ? {textAlign: props.align} : null)
-const absolute = props => (props.absolute ? {position: "absolute"} : null)
-const display = props =>
-  props.display ? {display: "block"} : {display: "inline-flex"}
+import Flex from "../components/flex"
 
-const Text = styled(Box)`
-  margin: 0;
-  padding: 0;
+const Text = styled(Flex)`
+  display: inline-flex;
   fill: currentColor;
-  ${display};
-  ${align};
+  ${textAlign};
   ${fontFamily};
   ${fontSize};
-  ${color};
-  ${italic};
-  ${bold};
-  ${light};
-  ${space};
+  ${fontWeight};
+  ${fontStyle};
+  ${lineHeight};
 `
 
 export default Text

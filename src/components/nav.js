@@ -1,11 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import {Flex, Box} from "grid-styled"
 import media from "styled-media-query"
 
-import theme from "../utils/theme"
-import Link from "../components/link"
 import {ButtonPrimaryOutline} from "../components/button"
+import Flex from "../components/flex"
+import Link from "../components/link"
+
+import theme from "../utils/theme"
+
 import {ReactComponent as IconBars} from "../icons/calendar.svg"
 import {ReactComponent as IconTimes} from "../icons/calendar.svg"
 
@@ -40,7 +42,7 @@ const List = styled(Flex.withComponent("ul"))`
   `};
 `
 
-const ToggleWrapper = styled(Box).attrs({p: 2})`
+const ToggleWrapper = styled(Flex).attrs({p: 2})`
   position: fixed;
   top: 0;
   right: 0;
