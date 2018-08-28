@@ -1,5 +1,5 @@
 import styled, {injectGlobal, ThemeProvider} from "styled-components"
-import {graphql} from "gatsby"
+import {StaticQuery, graphql} from "gatsby"
 import Helmet from "react-helmet"
 import React from "react"
 
@@ -64,31 +64,49 @@ const Layout = ({
     timeToRead,
   },
 }) => (
-  <React.Fragment>
-    <Helmet>
-      <html lang="fr" />
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="robots" content="noindex" />
-      <title>{metaTitle}</title>
-      <meta name="description" content={metaDescription} />
-    </Helmet>
-    <ThemeProvider theme={theme}>
-      <React.Fragment>
-        <Header title={title} timeToRead={timeToRead} />
-        <Cover
-          author={author}
-          date={date}
-          image={cover && cover.childImageSharp}
-          title={title}
-          size="100vh"
-          withScrollIcon
-          fixed
-        />
-        <ChildrenWrapper>{children}</ChildrenWrapper>
-      </React.Fragment>
-    </ThemeProvider>
-  </React.Fragment>
+  <StaticQuery
+    query={graphql`
+      {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render={({site: {siteMetadata}}) => {
+      return (
+        <React.Fragment>
+          <Helmet>
+            <html lang="fr" />
+            <meta charSet="utf-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            <meta name="robots" content="noindex" />
+            <title>{`${siteMetadata.title} - ${metaTitle}`}</title>
+            <meta name="description" content={metaDescription} />
+          </Helmet>
+          <ThemeProvider theme={theme}>
+            <React.Fragment>
+              <Header title={title} timeToRead={timeToRead} />
+              <Cover
+                author={author}
+                date={date}
+                image={cover && cover.childImageSharp}
+                title={title}
+                size="100vh"
+                withScrollIcon
+                fixed
+              />
+              <ChildrenWrapper>{children}</ChildrenWrapper>
+            </React.Fragment>
+          </ThemeProvider>
+        </React.Fragment>
+      )
+    }}
+  />
 )
 
 export default Layout
