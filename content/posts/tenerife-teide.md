@@ -3,24 +3,22 @@ title: Voir le lever du soleil sur le pic du Teide à Ténérife
 slug: /espagne/tenerife/voir-le-lever-du-soleil-sur-le-volcan-du-teide
 date: 2017-06-02T08:57:16.000Z
 author: noushka
-tags:
-  - Tenerife
-  - Espagne
-  - Europe
+country: Espagne
 metaTitle: Voir le lever du soleil sur le pic du Teide
 metaDescription: >-
   Vous souhaitez admirer le lever du soleil depuis le pic Teide à Ténérife ?
   Retrouvez tous nos bons plans et conseils
 ---
+
 Le parc national du Teide (en espagnol : Parc nacional del Teide) à Ténérife est le plus grand et le plus ancien des parcs des Canaries. Il abrite le pic du volcan du Teide, qui n'est autre que le point le plus haut d'Espagne : 3718 mètres ! La végétation est casi inexistante, vous verrez davantage des rochers aux couleurs étonnants : rouge, noir, blanc, gris... Certains disent même que ça ressemble au Grand Canyon. Depuis 2007, le parc du Teide est inscrit au patrimoine mondial de l'UNESCO, au titre de site naturel.
 
 5 lieux caractérisent le parc national. Il y a des randonnées et des points de vue dans chacun de ces lieux :
 
-* Pico del Teide
-* Pico Viejo
-* La cathedral
-* Montana Blanca
-* Montana Guajara
+-   Pico del Teide
+-   Pico Viejo
+-   La cathedral
+-   Montana Blanca
+-   Montana Guajara
 
 Le Pico del Teide est visible partout sur l'île, sauf lorsqu'il fait très nuageux. Le pic et ses environs sont accessibles en téléphérique de 9 à 16h tous les jours. Il est également possible de passer une nuit dans le parc et observer le lever du soleil depuis le pic à 7h du matin ! C'est cette aventure que nous partageons dans cette article.
 

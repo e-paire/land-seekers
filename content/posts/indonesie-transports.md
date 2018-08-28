@@ -1,13 +1,13 @@
 ---
-title: 'Indonésie : transports'
-date: '2018-07-11'
+title: "Indonésie : transports"
+date: "2018-07-11"
 author: noushka
-tags:
-  - Indonesie
+country: Indonésie
 ---
+
 Entre Java et Bali, les modes de transports les plus adaptés ne sont pas les mêmes.
 
- Tout le monde se déplace en scooter sur les deux îles. C'est assez impressionnant de voir le nombre de scooter en ville la première fois. Cependant, ce n'est pas le transport le plus recommandé pour les touristes a Java. C'est assez dangereux à notre avis. On vous explique tout ici.
+Tout le monde se déplace en scooter sur les deux îles. C'est assez impressionnant de voir le nombre de scooter en ville la première fois. Cependant, ce n'est pas le transport le plus recommandé pour les touristes a Java. C'est assez dangereux à notre avis. On vous explique tout ici.
 
 ## Aéroport de Yogyakarte
 
@@ -25,7 +25,7 @@ Notre conseil : télécharger des cartes Google Maps en hors-ligne. Cela vous pe
 
 Si vous vous retrouvez a vous déplacez d'une ville a l'autre avec tous vos bagages sur le dos, il sera plus difficile d'opter pour le scooter. La majorité du temps nous avons opté pour un taxi. Pour un prix relativement raisonnable, il est possible de faire jusqu'à 3h de route. Ainsi, de Ubud a Munduk nous avons payé 400000 rouphies (23,91€) et de Munduk à l'aéroport 550000 rouphies (32,87€). Bien entendu il est possible de prendre un bus (il n'y a pas de train a Bali) mais ça rallonge le temps du voyage et ajoute pas mal l'inconfort. Étant donné que nous n'avions pas beaucoup de temps, nous avons toujours préféré prendre in taxi.
 
-### 
+###
 
 ## Les transports à Java :
 

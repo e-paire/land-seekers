@@ -1,11 +1,10 @@
 ---
-title: 'Laponie Suédoise, un petit coin de paradis blanc'
+title: "Laponie Suédoise, un petit coin de paradis blanc"
 date: 2015-02-05T23:00:00.000Z
 author: noushka
-tags:
-  - Suède
-  - Europe
+country: Suède
 ---
+
 J'aimerais partager avec vous mon voyage en **Laponie Suédoise en hiver**. Il s'agit certainement de l'une de mes aventures les plus dépaysants et incroyable que j'ai fait jusqu'ici.
 
 Pour vous situer la Laponie, il s'agit d'une région à 250 Km au-dessus du cercle polaire couvrant 4 pays : La Norvège, Suisse, Finlande et Russie. C'est aussi là où vit le Père-Noël !
@@ -14,15 +13,15 @@ Pour vous situer la Laponie, il s'agit d'une région à 250 Km au-dessus du cerc
 
 Les possibilités ne sont pas nombreuses. Voici quelques possibilités :
 
-* Prendre l'avion jusqu'à Stockholm puis continuer en train
-* Prendre l'avion jusqu'à Copenhague puis continuer en train. Cette deuxième option est plus longue étant donné que vous ajoutez 7h de train supplémentaire pour aller de Copenhague à Stockholm.
-* Prendre l'avion jusqu'à Kiruna puis continuer en train pour aller à votre destination finale.
+-   Prendre l'avion jusqu'à Stockholm puis continuer en train
+-   Prendre l'avion jusqu'à Copenhague puis continuer en train. Cette deuxième option est plus longue étant donné que vous ajoutez 7h de train supplémentaire pour aller de Copenhague à Stockholm.
+-   Prendre l'avion jusqu'à Kiruna puis continuer en train pour aller à votre destination finale.
 
 Mon conseil est de prendre l'option 2, c'est à dire prendre l'avion jusqu'à Stockholm puis continuer en train. Le trajet sera long (environ 18h de train) mais vous pourrez profitez des beaux paysages, typiquement suédois dans un environnement entièrement blanc. Les trains suédois sont confortable et possèdent des prises électriques.
 
-En choisissant l'option train, notez qu'il est généralement recommandé de réserver son billet en avance. 
+En choisissant l'option train, notez qu'il est généralement recommandé de réserver son billet en avance.
 
-Il est également possible de voyager avec le [pass Interail en Suède](https://www.interrail.eu/fr/pass-interrail/one-country-pass). Cela vous procura de gros avantage en terme de prix. Avec ce pass, vous pourrez monter à bord de n'importe quel train, à la condition d'avoir réservé un siège. En effet, réserver un siège est un coût supplémentaire qui s'additionne au prix du pass. Vous trouverez toutes les informations liées aux trains suédois sur le site [Visit Sweden](https://visitsweden.fr/se-deplacer-en-suede/). 
+Il est également possible de voyager avec le [pass Interail en Suède](https://www.interrail.eu/fr/pass-interrail/one-country-pass). Cela vous procura de gros avantage en terme de prix. Avec ce pass, vous pourrez monter à bord de n'importe quel train, à la condition d'avoir réservé un siège. En effet, réserver un siège est un coût supplémentaire qui s'additionne au prix du pass. Vous trouverez toutes les informations liées aux trains suédois sur le site [Visit Sweden](https://visitsweden.fr/se-deplacer-en-suede/).
 
 ## Quand partir ?
 
@@ -36,13 +35,13 @@ Une autre destination possible est Kiruna, mais je ne vous le conseille pas. C'e
 
 ## Où dormir
 
-L'offre de logement n'est pas très large. En été vous pouvez aisement faire du camping mais ce n'est pas une option recommandable lorsqu'on s'y rend en plein hiver. 
+L'offre de logement n'est pas très large. En été vous pouvez aisement faire du camping mais ce n'est pas une option recommandable lorsqu'on s'y rend en plein hiver.
 
 Dans le village de Abisko, vous avez 3 logements :
 
-* Hôtel Abisko Mountain Lodge
-* Hôtel Abisko GuestHouse
-* Auberge de jeunesse Abisko Fjällturer AB
+-   Hôtel Abisko Mountain Lodge
+-   Hôtel Abisko GuestHouse
+-   Auberge de jeunesse Abisko Fjällturer AB
 
 et à à Abisko Östra : Abisko Turiststation STF : il s'agit d'un hôtel avec restaurant
 
@@ -50,7 +49,7 @@ Nous avons opté pour la petite auberge de jeunesse, situé tout proche de la ga
 
 ## Les activités à faire en Laponie Suédoise
 
-Si vous y allez en hiver, il faudra bien choisir comment vous souhaitez organiser vos journées. En effet, les journées sont très courte ; le soleil se lève à 9h et se couche à 16h.  
+Si vous y allez en hiver, il faudra bien choisir comment vous souhaitez organiser vos journées. En effet, les journées sont très courte ; le soleil se lève à 9h et se couche à 16h.
 
 ### Randonnée
 
@@ -60,19 +59,19 @@ Petit conseil randonnée : si vous êtes à l'auberge, vous pouvez marcher jusqu
 
 ### Aurores boréales
 
-Cette activité là est incontestablement la meilleure et doit absolument être fait. Les aurores boréales s'observent la nuit par temps dégagé. Il paraît que la meilleur période est en février mais cela ne garantit pas que vous pourrez en voir une. Pour mettre toutes les chances de votre côté, il faut aller dehors et attendre que le miracle se produise. 
+Cette activité là est incontestablement la meilleure et doit absolument être fait. Les aurores boréales s'observent la nuit par temps dégagé. Il paraît que la meilleur période est en février mais cela ne garantit pas que vous pourrez en voir une. Pour mettre toutes les chances de votre côté, il faut aller dehors et attendre que le miracle se produise.
 
-N'hésitez pas à demander aux locaux où sont les meilleurs endroits pour les voir. A Abisko, nous nous sommes rendu une fois sur le lac et une fois en hauteur (accompagné d'un local). Il n'y a pas de secret, pour voir les magnifiques aurores boréales, il faut se rendre dehors et attendre. Après des heures d'attente avec une température de -20 degrés, nous n'avons malheureusement pas vu d'aurore boréale. Uniquement un petit début derrière la vallée. 
+N'hésitez pas à demander aux locaux où sont les meilleurs endroits pour les voir. A Abisko, nous nous sommes rendu une fois sur le lac et une fois en hauteur (accompagné d'un local). Il n'y a pas de secret, pour voir les magnifiques aurores boréales, il faut se rendre dehors et attendre. Après des heures d'attente avec une température de -20 degrés, nous n'avons malheureusement pas vu d'aurore boréale. Uniquement un petit début derrière la vallée.
 
-Notre budget ne nous a pas permis de faire des activités supplémentaire. Néanmoins, sachez qu'il y a beaucoup de chose à faire dans la région : 
+Notre budget ne nous a pas permis de faire des activités supplémentaire. Néanmoins, sachez qu'il y a beaucoup de chose à faire dans la région :
 
-* chien de traîneau
-* ski de fond
-* pêche
+-   chien de traîneau
+-   ski de fond
+-   pêche
 
-Votre hébergement pourra vous trouvez des prestataires avec lesquels faire ces activités. Le chien de traîneau est la plus en vogue dans la région. Il est conseillé de réserver cette activité en avance si vous tenez absolument à la faire. 
+Votre hébergement pourra vous trouvez des prestataires avec lesquels faire ces activités. Le chien de traîneau est la plus en vogue dans la région. Il est conseillé de réserver cette activité en avance si vous tenez absolument à la faire.
 
-Pour plus de suggestions, je vous conseille un site très professionnel sur les [séjours en Laponie](http://destinationlaponie.fr/) 
+Pour plus de suggestions, je vous conseille un site très professionnel sur les [séjours en Laponie](http://destinationlaponie.fr/)
 
 ## Comment s'habiller
 

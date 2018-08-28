@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import {Flex} from "grid-styled"
+
+import Flex from "../components/flex"
 
 const Content = styled(Flex).attrs({
   justify: "space-around",
@@ -10,6 +11,7 @@ const Content = styled(Flex).attrs({
 })`
   margin: auto;
   max-width: 1000px;
+  overflow: hidden;
 `
 
 export default Content

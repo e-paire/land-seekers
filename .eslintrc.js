@@ -2,7 +2,6 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    node: true,
   },
   extends: [
     "eslint:recommended",
@@ -25,5 +24,10 @@ module.exports = {
   rules: {
     "react/prop-types": 0,
     "no-console": 1,
+  },
+  settings: {
+    react: {
+      version: "16.4",
+    },
   },
 }

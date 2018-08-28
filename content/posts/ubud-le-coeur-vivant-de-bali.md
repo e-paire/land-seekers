@@ -1,32 +1,33 @@
 ---
-title: 'Ubud, le coeur vivant de Bali'
-date: '2018-07-01'
+title: "Ubud, le coeur vivant de Bali"
+date: "2018-07-01"
 author: noushka
-tags: []
+country: Indonésie
 ---
-Ubud c'est un peu le petit monde occidental en plein milieu de Bali. Et pour cause, il y a beaucoup de touristes. Ça nous a changé comparé a la petite ville de Banjuwangi. 
+
+Ubud c'est un peu le petit monde occidental en plein milieu de Bali. Et pour cause, il y a beaucoup de touristes. Ça nous a changé comparé a la petite ville de Banjuwangi.
 
 Ne voyez pas cela comme une critique vis a vis d'Ubud. Nous savions a quoi nous attendre de cette ville et nous n'avons pas été déçu.
 
-Et pour cause, nous nous sommes offert une magnifique chambre avec vue sur les rizières. Un petit bout de paradis au coeur de la ville. On vous en parle plus tard dans l'article. 
+Et pour cause, nous nous sommes offert une magnifique chambre avec vue sur les rizières. Un petit bout de paradis au coeur de la ville. On vous en parle plus tard dans l'article.
 
 ## Que faire aux alentours de Ubud?
 
 Cette ville a l'avantage d'être relativement centré dans l'île ce qui permet d'accéder facilement aux points d'intérêt. Ceci étant, on vous conseille de pas faire trop de route parce que le soleil se couche tôt et que rouler la nuit en scooter n'est pas l'idéal. Dans cet article, nous vous parlons de :
 
-* Rizières autour d'Ubud, et en particulier Tegallelang Rice Terrasse
-* Temple de Pura Gunung Kawi 
-* Séance dégustation de thé/café
-* Mont Batung
-* Massage balinais
+-   Rizières autour d'Ubud, et en particulier Tegallelang Rice Terrasse
+-   Temple de Pura Gunung Kawi
+-   Séance dégustation de thé/café
+-   Mont Batung
+-   Massage balinais
 
 ### Visiter les rizières autour d'Ubud :
 
-La probabilité est forte que vous appréciez la région et ses rizières. Pour profitez un maximum, on vous conseille de quitter les grands axes et privilégier les petites routes. Ainsi, vous pourrez voir s'enchainer les rizières et traverser des petits villages. Nous avons vu beaucoup de village, en ligne droite où l'on voit un petit temple devant chaque maison, des offrandes devant les maisons et du riz qui sèche sur des bâches. 
+La probabilité est forte que vous appréciez la région et ses rizières. Pour profitez un maximum, on vous conseille de quitter les grands axes et privilégier les petites routes. Ainsi, vous pourrez voir s'enchainer les rizières et traverser des petits villages. Nous avons vu beaucoup de village, en ligne droite où l'on voit un petit temple devant chaque maison, des offrandes devant les maisons et du riz qui sèche sur des bâches.
 
-Il y a une rizière tres connu, au nord d'Ubud (environ 15min en scooter) : **Tegallelang Rice Terrasse**. L'accès est gratuit normalement mais il est possible que vous croisiez quelqu'un qui vous demande un droit d'entrée. Le prix est libre. 
+Il y a une rizière tres connu, au nord d'Ubud (environ 15min en scooter) : **Tegallelang Rice Terrasse**. L'accès est gratuit normalement mais il est possible que vous croisiez quelqu'un qui vous demande un droit d'entrée. Le prix est libre.
 
-Vous pouvez vous balader librement dans les rizières. Durant notre petite randonnée, on est passé devant un stand tenu par une famille adorable qui veut transmettre l'authenticité de Bali aux touristes. Le père de famille a reproduit le Titanic en bambou où l'on peut monter et admirer les rizières vu d'en haut.  Passez leur faire un petit coucou si vous êtes a Tegallelang. 
+Vous pouvez vous balader librement dans les rizières. Durant notre petite randonnée, on est passé devant un stand tenu par une famille adorable qui veut transmettre l'authenticité de Bali aux touristes. Le père de famille a reproduit le Titanic en bambou où l'on peut monter et admirer les rizières vu d'en haut. Passez leur faire un petit coucou si vous êtes a Tegallelang.
 
 ### Visiter des temples autour d'Ubud :
 
@@ -40,7 +41,7 @@ _Si vous allez dans un temple, négociez fermement le prix ou arriver directemen
 
 ### Goûter du café et du thé (gratuit)
 
-Au nord de Tegallelang, 15 min avant d'arriver dans la région de Batung, il est possible de goûter du café Lawak et de goûter du thé et du café. C'est un très jolie cadre, sans touriste où vous pourrez profiter un bon moment purement balinais. Nous étions accompagné d'un local qui nous a expliqué comment est fabriqué le café le plus cher du monde. 
+Au nord de Tegallelang, 15 min avant d'arriver dans la région de Batung, il est possible de goûter du café Lawak et de goûter du thé et du café. C'est un très jolie cadre, sans touriste où vous pourrez profiter un bon moment purement balinais. Nous étions accompagné d'un local qui nous a expliqué comment est fabriqué le café le plus cher du monde.
 
 ### Observer le mont Batung
 
@@ -50,22 +51,18 @@ _Contrôle de police corrumpu :_
 
 _Il **paraît** que les policiers arrêtent tous les touristes en scooter le matin sur la route menant au mont Batung. Ils leur demandent de présenter un permis balinais faute d'amende très lourde. Bien entendu, le permis balinais n'est pas obligatoire, il vous suffit d'avoir un permis internationnal. Cependant, la corruption est est commun à Bali et vous n'aurez pas d'autre choix que de vous acquitter d'une somme astronomique si vous voulez continuer votre chemin. Nous n'avons pas vécu cette expérience mais un local nous a raconté cela. Si cela vous est arrivé, n'hésitez pas à le partager avec les land seekers en commentaire. Il est toujours intéressant d'avoir plusieurs retours._
 
-
-
 ### Massage balinais
 
 Les massages balinais sont très agréable et reposant, surtout après une journée de scooter. N'hésitez pas à vous laisser tenter par une heure de massage.
 
-Vous trouverez tous les prix à Ubud. Nous pouvons vous conseiller le salon qui travaille avec l'hôtel où nous étions. Les masseuses peuvent se déplacer dans votre chambre ou peuvent vous accueillir au salon de massage. 
+Vous trouverez tous les prix à Ubud. Nous pouvons vous conseiller le salon qui travaille avec l'hôtel où nous étions. Les masseuses peuvent se déplacer dans votre chambre ou peuvent vous accueillir au salon de massage.
 
-Un massage balinais de 1h coûte environ 120000 rouphies (7€17). A ce prix-là, nous n'avons pas hésité longtemps avant de se laisser tenter. 
-
-
+Un massage balinais de 1h coûte environ 120000 rouphies (7€17). A ce prix-là, nous n'avons pas hésité longtemps avant de se laisser tenter.
 
 ## Comment aller a Ubud :
 
-* Depuis Denpassar, commander un taxi. C'est toujours le plus simple. 
-* Depuis Gilimanduk, vous pouvez prendre le bus jusqu'à la gare routière de Mengwi. Vous aurez ensuite le choix de continuer en bus (200000 rouphies par personne soit 11,95€) ou un taxi (nous l'avons obtenu pour 200000 rouphies pour 2). C'est environ 1h de route en fonction de la circulation.
+-   Depuis Denpassar, commander un taxi. C'est toujours le plus simple.
+-   Depuis Gilimanduk, vous pouvez prendre le bus jusqu'à la gare routière de Mengwi. Vous aurez ensuite le choix de continuer en bus (200000 rouphies par personne soit 11,95€) ou un taxi (nous l'avons obtenu pour 200000 rouphies pour 2). C'est environ 1h de route en fonction de la circulation.
 
 ## Où dormir :
 
