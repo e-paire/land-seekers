@@ -1,5 +1,5 @@
 ---
-name: Cedric
+title: Cédric
 slug: "auteur/cedric"
 ---
 

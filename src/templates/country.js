@@ -29,7 +29,7 @@ const Country = ({data: {countriesPage, page, posts}}) => {
 export default Country
 
 export const pageQuery = graphql`
-  query($slug: String!, $name: String!) {
+  query($slug: String!, $title: String!) {
     page: markdownRemark(fields: {slug: {eq: $slug}}) {
       ...MarkdownNodeFragment
     }
@@ -39,8 +39,8 @@ export const pageQuery = graphql`
       }
     }
     posts: allMarkdownRemark(
-      sort: {fields: [frontmatter___name], order: ASC}
-      filter: {frontmatter: {country: {eq: $name}}}
+      sort: {fields: [frontmatter___title], order: ASC}
+      filter: {frontmatter: {country: {eq: $title}}}
     ) {
       totalCount
       edges {

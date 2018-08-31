@@ -1,5 +1,5 @@
 ---
-name: "Bosnie"
+title: "Bosnie"
 slug: "pays/bosnie"
 ---
 

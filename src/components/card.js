@@ -81,7 +81,7 @@ const Card = ({excerpt, fields, frontmatter, timeToRead, pathPrefix}) => {
         )}
         <Flex mb={2}>
           <Text is="h2" fontSize={[3, 4, 5]}>
-            {frontmatter.title || frontmatter.name}
+            {frontmatter.title}
           </Text>
         </Flex>
         <Flex>
@@ -109,7 +109,6 @@ export const fragments = graphql`
     frontmatter {
       author
       date(formatString: "DD/MM/YY")
-      name
       title
       cover {
         childImageSharp {

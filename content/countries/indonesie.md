@@ -1,5 +1,5 @@
 ---
-name: "Indonésie"
+title: "Indonésie"
 slug: "pays/indonesie"
 ---
 

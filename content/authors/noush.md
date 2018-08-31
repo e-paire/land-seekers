@@ -1,5 +1,5 @@
 ---
-name: Noushka
+title: Noushka
 slug: "auteur/noushka"
 ---
 
