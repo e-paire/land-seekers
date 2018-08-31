@@ -1,5 +1,5 @@
 ---
-name: "Nouvelle Zélande"
+title: "Nouvelle Zélande"
 slug: "pays/nouvelle-zelande"
 ---
 

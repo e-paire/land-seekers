@@ -17,11 +17,11 @@ collections:
     editor:
       preview: false
     fields:
-      - name: "title"
-        label: "Title"
-        widget: "string"
       - name: "slug"
         label: "Slug"
+        widget: "string"
+      - name: "title"
+        label: "Title"
         widget: "string"
       - name: "date"
         label: "Publish Date"
@@ -30,8 +30,8 @@ collections:
         name: "author"
         widget: "relation"
         collection: "authors"
-        searchFields: ["id"]
-        valueField: "id"
+        searchFields: ["name"]
+        valueField: "name"
         required: false
       - name: "metaTitle"
         label: "Meta title"
@@ -62,8 +62,11 @@ collections:
     editor:
       preview: false
     fields:
-      - name: "name"
-        label: "Name"
+      - name: "slug"
+        label: "Slug"
+        widget: "string"
+      - name: "title"
+        label: "Title"
         widget: "string"
       - name: "cover"
         label: "Cover"
@@ -80,8 +83,11 @@ collections:
     editor:
       preview: false
     fields:
-      - name: "name"
-        label: "Name"
+      - name: "slug"
+        label: "Slug"
+        widget: "string"
+      - name: "title"
+        label: "Title"
         widget: "string"
       - name: "cover"
         label: "Cover"

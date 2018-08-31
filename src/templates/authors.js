@@ -28,7 +28,7 @@ export const pageQuery = graphql`
     }
     authors: allMarkdownRemark(
       filter: {fields: {sourceName: {eq: "authors"}}}
-      sort: {fields: [frontmatter___name], order: ASC}
+      sort: {fields: [frontmatter___title], order: ASC}
     ) {
       edges {
         node {

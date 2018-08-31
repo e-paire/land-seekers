@@ -38,7 +38,7 @@ exports.createPages = ({graphql, actions}) => {
             }
             authors: allMarkdownRemark(
               filter: {fields: {sourceName: {eq: "authors"}}}
-              sort: {fields: [frontmatter___name], order: ASC}
+              sort: {fields: [frontmatter___title], order: ASC}
             ) {
               edges {
                 node {
@@ -65,7 +65,7 @@ exports.createPages = ({graphql, actions}) => {
                     slug
                   }
                   frontmatter {
-                    name
+                    title
                   }
                 }
               }
@@ -130,7 +130,7 @@ exports.createPages = ({graphql, actions}) => {
             component: countryTemplate,
             context: {
               slug: node.fields.slug,
-              name: node.frontmatter.name,
+              title: node.frontmatter.title,
             },
           })
         })

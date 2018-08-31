@@ -1,5 +1,5 @@
 ---
-name: "Pays-bas"
+title: "Pays-bas"
 slug: "pays/pays-bas"
 ---
 

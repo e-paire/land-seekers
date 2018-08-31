@@ -1,5 +1,5 @@
 ---
-name: "Suède"
+title: "Suède"
 slug: "pays/suede"
 ---
 

@@ -28,7 +28,7 @@ export const pageQuery = graphql`
     }
     countries: allMarkdownRemark(
       filter: {fields: {sourceName: {eq: "countries"}}}
-      sort: {fields: [frontmatter___name], order: ASC}
+      sort: {fields: [frontmatter___title], order: ASC}
     ) {
       edges {
         node {
