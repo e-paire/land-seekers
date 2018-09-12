@@ -38,6 +38,8 @@ Le Drago Milenario est un symbole national de l'île et sans aucun doute une vis
 
 La Péninsule de Punto de Teno est le point le plus occidental de l'île. Vous pourez, depuis ce cap rocheux, observer l'île de La Gomera, la Palma ainsi que les montagnes du Teno.
 
+Le village fantôme d'Abades : il s'agit là d'un petit village abandonnée sur la côté sud-est de l'île. C'est un lieu qui devait accueillir les malades touchés par la maladie de lèpre, mais recevra des membres de la Phalange espagnole puis des militaires. Aujourd'hui, le Ministère de la défense à déserté les lieux et le village n'est autre qu'une village fantôme qui attire quelques promeneurs curieux. [Voir pour plus d'info](http://vidadesol.blogspot.com/2009/06/abades-la-cite-fantome.html).  
+
 ## Transport pour aller à Tenerife
 
 Le choix est peu restreint ... il n'y a que l'avion. Par contre, plusieurs possibilités de compagnie.
